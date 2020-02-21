@@ -2991,7 +2991,3 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 // END_INCLUDE
-
-// BEGIN_BEATSTATION_INCLUDES
-#include "beatstation\_includes.dm"
-// END_BEATSTATION_INCLUDES
