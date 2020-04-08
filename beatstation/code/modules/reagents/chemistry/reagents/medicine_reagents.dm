@@ -529,7 +529,7 @@
 
 /datum/reagent/medicine/ephedrine
 	name = "Ephedrine"
-	description = "Increases stun resistance and movement speed. Overdose deals toxin damage and inhibits breathing."
+	description = "Increases stun resistance and movement speed, giving you hand cramps. Overdose deals toxin damage and inhibits breathing."
 	reagent_state = LIQUID
 	color = "#D2FFFA"
 	metabolization_rate = 0.5 * REAGENTS_METABOLISM
@@ -901,10 +901,12 @@
 
 /datum/reagent/medicine/stimulants/on_mob_metabolize(mob/living/L)
 	..()
-	L.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-1, blacklisted_movetypes=(FLYING|FLOATING))
+	L.add_movespeed_modifier(/datum/movespeed_modifier/reagent/stimulants)
+	ADD_TRAIT(L, TRAIT_STUNRESISTANCE, type)
 
 /datum/reagent/medicine/stimulants/on_mob_end_metabolize(mob/living/L)
-	L.remove_movespeed_modifier(type)
+	L.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/stimulants)
+	REMOVE_TRAIT(L, TRAIT_STUNRESISTANCE, type)
 	..()
 
 /datum/reagent/medicine/stimulants/on_mob_life(mob/living/carbon/M)
@@ -1179,10 +1181,10 @@ hippie end */
 
 /datum/reagent/medicine/changelinghaste/on_mob_metabolize(mob/living/L)
 	..()
-	L.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-2, blacklisted_movetypes=(FLYING|FLOATING))
+	L.add_movespeed_modifier(/datum/movespeed_modifier/reagent/changelinghaste)
 
 /datum/reagent/medicine/changelinghaste/on_mob_end_metabolize(mob/living/L)
-	L.remove_movespeed_modifier(type)
+	L.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/changelinghaste)
 	..()
 
 /datum/reagent/medicine/changelinghaste/on_mob_life(mob/living/carbon/M)
@@ -1330,19 +1332,6 @@ hippie end */
 		M.adjustToxLoss(1, 0)
 	return FINISHONMOBLIFE(M)
 
-/datum/reagent/medicine/ephedrine/on_mob_life(mob/living/M)
-	M.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-1, blacklisted_movetypes=(FLYING|FLOATING))
-	M.reagents.remove_reagent(/datum/reagent/consumable/nutriment, rand(0,3))
-	M.reagents.remove_reagent(/datum/reagent/consumable/nutriment/vitamin, rand(0,3))
-	if(prob(34))
-		M.nutrition = max(M.nutrition - rand(0,10), 1) //Cannot go below 1.
-	return FINISHONMOBLIFE(M)
-
-/datum/reagent/medicine/ephedrine/on_mob_end_metabolize(mob/living/M)
-	if (istype(M))
-		M.remove_movespeed_modifier(type)
-	..()
-
 /datum/reagent/medicine/atropine/on_mob_life(mob/living/M)
 	M.reagents.remove_all_type(/datum/reagent/toxin/sarin, 1*REM, 0, 1)
 	M.reagents.remove_all_type(/datum/reagent/toxin/tabun, 1*REM, 0, 1)
@@ -1361,6 +1350,9 @@ hippie end */
 		M.Jitter(5)
 	return FINISHONMOBLIFE(M)
 
+/datum/movespeed_modifier/reagent/superzine
+	multiplicative_slowdown = -1
+
 /datum/reagent/medicine/superzine
 	name = "Superzine"
 	description = "An extremely effective muscle stimulant and stamina restorer."
@@ -1371,7 +1363,7 @@ hippie end */
 /datum/reagent/medicine/superzine/on_mob_life(mob/living/M as mob)
 	if(prob(15))
 		M.emote(pick("twitch","blink_r","shiver"))
-	M.add_movespeed_modifier(type, update=TRUE, priority=100, multiplicative_slowdown=-1, blacklisted_movetypes=(FLYING|FLOATING))
+	M.add_movespeed_modifier(/datum/movespeed_modifier/reagent/superzine)
 	M.adjustStaminaLoss(-5)
 	if(prob(2))
 		M<<"<span class='danger'>You collapse suddenly!"
@@ -1381,7 +1373,7 @@ hippie end */
 
 /datum/reagent/medicine/superzine/on_mob_end_metabolize(mob/living/M)
 	if (istype(M))
-		M.remove_movespeed_modifier(type)
+		M.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/superzine)
 	..()
 
 /datum/reagent/medicine/superzine/overdose_process(mob/living/M)
