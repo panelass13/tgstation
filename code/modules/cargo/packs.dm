@@ -1290,7 +1290,7 @@
 	name = "Medical Supplies Crate"
 	desc = "Contains several medical supplies. German doctor not included."
 	cost = 2000
-	contains = list(/obj/item/reagent_containers/glass/bottle/multiver,
+	contains = list(/obj/item/reagent_containers/glass/bottle/charcoal,
 					/obj/item/reagent_containers/glass/bottle/epinephrine,
 					/obj/item/reagent_containers/glass/bottle/morphine,
 					/obj/item/reagent_containers/glass/bottle/toxin,
@@ -1298,7 +1298,7 @@
 					/obj/item/reagent_containers/pill/insulin,
 					/obj/item/stack/medical/gauze,
 					/obj/item/storage/box/beakers,
-					/obj/item/storage/box/medigels,
+					/obj/item/storage/box/medsprays,
 					/obj/item/storage/box/syringes,
 					/obj/item/storage/box/bodybags,
 					/obj/item/storage/firstaid/regular,
@@ -1330,7 +1330,7 @@
 	desc = "Do you want to perform surgery, but don't have one of those fancy shmancy degrees? Just get started with this crate containing a medical duffelbag, Sterilizine spray and collapsible roller bed."
 	cost = 3000
 	contains = list(/obj/item/storage/backpack/duffelbag/med/surgery,
-					/obj/item/reagent_containers/medigel/sterilizine,
+					/obj/item/reagent_containers/medspray/sterilizine,
 					/obj/item/roller)
 	crate_name = "surgical supplies crate"
 

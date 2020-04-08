@@ -15,4 +15,16 @@
 // BEGIN_INCLUDE
 #include "beatstation\_tgstation.dm"
 #include "beatstation\code\init.dm"
+#include "beatstation\code\game\objects\items\stacks\medical.dm"
+#include "beatstation\code\game\objects\items\storage\firstaid.dm"
+#include "beatstation\code\modules\reagents\chemistry\reagents.dm"
+#include "beatstation\code\modules\reagents\chemistry\reagents\medicine_reagents.dm"
+#include "beatstation\code\modules\reagents\chemistry\recipes\medicine.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\bottle.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\glass.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\hypospray.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\medspray.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\patch.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\pill.dm"
+#include "beatstation\code\modules\reagents\reagent_containers\syringes.dm"
 // END_INCLUDE

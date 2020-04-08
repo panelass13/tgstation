@@ -1,4 +1,4 @@
-
+/*
 /datum/chemical_reaction/leporazine
 	results = list(/datum/reagent/medicine/leporazine = 2)
 	required_reagents = list(/datum/reagent/silicon = 1, /datum/reagent/copper = 1)
@@ -130,11 +130,11 @@
 /datum/chemical_reaction/regen_jelly
 	results = list(/datum/reagent/medicine/regen_jelly = 2)
 	required_reagents = list(/datum/reagent/medicine/omnizine = 1, /datum/reagent/toxin/slimejelly = 1)
-
+*/
 /datum/chemical_reaction/higadrite
 	results = list(/datum/reagent/medicine/higadrite = 3)
 	required_reagents = list(/datum/reagent/phenol = 2, /datum/reagent/lithium = 1)
-
+/*
 /datum/chemical_reaction/morphine
 	results = list(/datum/reagent/medicine/morphine = 2)
 	required_reagents = list(/datum/reagent/carbon = 2, /datum/reagent/hydrogen = 2, /datum/reagent/consumable/ethanol = 1, /datum/reagent/oxygen = 1)
@@ -168,4 +168,4 @@
 /datum/chemical_reaction/medmesh/on_reaction(datum/reagents/holder, created_volume)
 	var/location = get_turf(holder.my_atom)
 	for(var/i = 1, i <= created_volume, i++)
-		new /obj/item/stack/medical/mesh/advanced(location)
+		new /obj/item/stack/medical/mesh/advanced(location)*/

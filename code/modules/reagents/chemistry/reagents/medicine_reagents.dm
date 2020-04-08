@@ -1,4 +1,4 @@
-
+/*
 
 //////////////////////////////////////////////////////////////////////////////////////////
 					// MEDICINE REAGENTS
@@ -363,13 +363,13 @@
 	M.adjustFireLoss(1.5*REM, FALSE, FALSE, BODYPART_ORGANIC)
 	..()
 	. = 1
-
+*/
 /datum/reagent/medicine/omnizine/protozine
 	name = "Protozine"
 	description = "A less environmentally friendly and somewhat weaker variant of omnizine."
 	color = "#d8c7b7"
 	healing = 0.2
-
+/*
 /datum/reagent/medicine/calomel
 	name = "Calomel"
 	description = "Quickly purges the body of all chemicals. Toxin damage is dealt if the patient is in good condition."
@@ -1085,7 +1085,7 @@
 	M.adjustToxLoss(2, 0)
 	..()
 	return TRUE
-
+*/
 /datum/reagent/medicine/higadrite
 	name = "Higadrite"
 	description = "A medication utilized to treat ailing livers."
@@ -1115,7 +1115,7 @@
 	..()
 	REMOVE_TRAIT(M, TRAIT_STABLEHEART, type)
 	REMOVE_TRAIT(M, TRAIT_STABLELIVER, type)
-
+/*
 /datum/reagent/medicine/muscle_stimulant
 	name = "Muscle Stimulant"
 	description = "A potent chemical that allows someone under its influence to be at full physical ability even when under massive amounts of pain."
@@ -1224,7 +1224,7 @@
 	M.adjustToxLoss(1, 0)
 	..()
 	. = 1
-
+*/
 /datum/reagent/medicine/metafactor
 	name = "Mitogen Metabolism Factor"
 	description = "This enzyme catalyzes the conversion of nutricious food into healing peptides."
@@ -1284,7 +1284,7 @@
 	M.adjustOrganLoss(ORGAN_SLOT_LUNGS, 0.5)
 	..()
 	. = 1
-
+/*
 /datum/reagent/medicine/granibitaluri
 	name = "Granibitaluri" //achieve "GRANular" amounts of C2
 	description = "A mild painkiller useful as an additive alongside more potent medicines. Speeds up the healing of small wounds and burns, but is ineffective at treating severe injuries. Extremely large doses are toxic, and may eventually cause liver failure."
@@ -1336,4 +1336,4 @@
 	L.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/badstims)
 	L.remove_movespeed_mod_immunities(type, /datum/movespeed_modifier/damage_slowdown)
 	L.Dizzy(0)
-	L.Jitter(0)
+	L.Jitter(0)*/
