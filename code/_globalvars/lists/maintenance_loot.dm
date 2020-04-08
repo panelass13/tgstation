@@ -164,7 +164,7 @@ GLOBAL_LIST_INIT(uncommon_loot, list(//uncommon: useful items
 		/obj/item/spear = 1,
 		/obj/item/shield/riot/buckler = 1,
 		/obj/item/grenade/iedcasing/spawned = 1,
-		/obj/item/melee/baton/cattleprod = 1,
+		/obj/item/melee/baton/cattleprod/hippie_cattleprod = 1,
 		/obj/item/throwing_star = 1,
 		) = 8,
 

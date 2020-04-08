@@ -7,7 +7,7 @@
 	cost = 100
 	unit_name = "stun baton"
 	export_types = list(/obj/item/melee/baton)
-	exclude_types = list(/obj/item/melee/baton/cattleprod)
+	exclude_types = list(/obj/item/melee/baton/cattleprod/hippie_cattleprod)
 	include_subtypes = TRUE
 
 /datum/export/weapon/knife

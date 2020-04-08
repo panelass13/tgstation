@@ -32853,7 +32853,7 @@
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
 /obj/effect/landmark/blobstart,
-/obj/item/melee/baton/cattleprod{
+/obj/item/melee/baton/cattleprod/hippie_cattleprod{
 	preload_cell_type = /obj/item/stock_parts/cell/high
 	},
 /obj/structure/cable,
