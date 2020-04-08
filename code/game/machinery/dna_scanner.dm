@@ -145,7 +145,7 @@
 		return
 	close_machine(target)
 
-
+/*
 //Just for transferring between genetics machines.
 /obj/item/disk/data
 	name = "DNA data disk"
@@ -166,4 +166,4 @@
 
 /obj/item/disk/data/examine(mob/user)
 	. = ..()
-	. += "The write-protect tab is set to [read_only ? "protected" : "unprotected"]."
+	. += "The write-protect tab is set to [read_only ? "protected" : "unprotected"]."*/
