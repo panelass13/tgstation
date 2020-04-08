@@ -1085,7 +1085,7 @@
 	M.adjustToxLoss(2, 0)
 	..()
 	return TRUE
-*/
+
 /datum/reagent/medicine/higadrite
 	name = "Higadrite"
 	description = "A medication utilized to treat ailing livers."
@@ -1099,7 +1099,7 @@
 /datum/reagent/medicine/higadrite/on_mob_end_metabolize(mob/living/M)
 	..()
 	REMOVE_TRAIT(M, TRAIT_STABLELIVER, type)
-
+*/
 /datum/reagent/medicine/cordiolis_hepatico
 	name = "Cordiolis Hepatico"
 	description = "A strange, pitch-black reagent that seems to absorb all light. Effects unknown."
