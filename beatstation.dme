@@ -15,7 +15,10 @@
 // BEGIN_INCLUDE
 #include "beatstation\_tgstation.dm"
 #include "beatstation\code\init.dm"
+#include "beatstation\code\controllers\subsystem\mapping.dm"
 #include "beatstation\code\datums\martial\krav_medical.dm"
+#include "beatstation\code\datums\ruins\station.dm"
+#include "beatstation\code\game\objects\effects\landmarks.dm"
 #include "beatstation\code\game\objects\effects\turfdecal\markings.dm"
 #include "beatstation\code\game\objects\effects\turfdecal\tilecoloring.dm"
 #include "beatstation\code\game\objects\items\stunbaton.dm"
