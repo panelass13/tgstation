@@ -17,6 +17,7 @@
 #include "beatstation\code\init.dm"
 #include "beatstation\code\datums\martial\krav_medical.dm"
 #include "beatstation\code\game\objects\items\stunbaton.dm"
+#include "beatstation\code\game\objects\items\circuitboards\computer_circuitboards.dm"
 #include "beatstation\code\game\objects\items\stacks\medical.dm"
 #include "beatstation\code\game\objects\items\storage\firstaid.dm"
 #include "beatstation\code\modules\client\verbs\looc.dm"
@@ -42,4 +43,9 @@
 #include "beatstation\code\modules\reagents\reagent_containers\patch.dm"
 #include "beatstation\code\modules\reagents\reagent_containers\pill.dm"
 #include "beatstation\code\modules\reagents\reagent_containers\syringes.dm"
+#include "beatstation\code\modules\research\designs\machine_designs.dm"
+#include "beatstation\code\modules\research\techweb\all_nodes.dm"
+#include "beatstation\code\modules\telescience\telepad.dm"
+#include "beatstation\code\modules\telescience\telesci.dm"
+#include "beatstation\code\modules\telescience\telesci_computer.dm"
 // END_INCLUDE
