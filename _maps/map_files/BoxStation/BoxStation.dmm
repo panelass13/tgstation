@@ -14675,12 +14675,16 @@
 /obj/effect/turf_decal/plaque{
 	icon_state = "L7"
 	},
+/obj/structure/table,
+/obj/item/storage/fancy/cigarettes/cigars,
+/obj/item/lighter,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aMc" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L5"
 	},
+/obj/machinery/vending/cola/random,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aMd" = (
@@ -14693,6 +14697,7 @@
 /obj/effect/turf_decal/plaque{
 	icon_state = "L9"
 	},
+/obj/machinery/vending/snack/random,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "aMf" = (
@@ -48564,6 +48569,15 @@
 "dGF" = (
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
+"dKI" = (
+/obj/item/statuebust,
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/window,
+/turf/open/floor/grass,
+/area/hallway/primary/central)
 "dMb" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
@@ -53080,6 +53094,10 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/maintenance/disposal/incinerator)
+"qdT" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "qdV" = (
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
@@ -54053,6 +54071,18 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"toU" = (
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/window{
+	dir = 4
+	},
+/obj/structure/window,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/floor/grass,
+/area/hallway/primary/central)
 "tqd" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -55642,6 +55672,18 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
+"xmC" = (
+/obj/structure/window{
+	dir = 8
+	},
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/window,
+/turf/open/floor/grass,
+/area/hallway/primary/central)
 "xpa" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -84304,7 +84346,7 @@ ayW
 ayW
 ayW
 aJo
-aJq
+qdT
 aLZ
 aNv
 aOE
@@ -84561,7 +84603,7 @@ azZ
 azZ
 aHQ
 aJr
-aJq
+xmC
 aMc
 aNy
 aOE
@@ -84818,7 +84860,7 @@ anz
 anz
 aHP
 aJq
-aJq
+dKI
 aMb
 aNx
 aOE
@@ -85075,7 +85117,7 @@ aAa
 aAa
 aHR
 aJt
-aJq
+toU
 aMe
 aNA
 aOE
@@ -85332,7 +85374,7 @@ ahn
 ahn
 ahn
 aJs
-aJq
+qdT
 aMd
 aNz
 aOE
