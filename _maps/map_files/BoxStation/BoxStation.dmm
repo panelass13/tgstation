@@ -20883,12 +20883,16 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "bdq" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Diner"
+	},
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
-/area/crew_quarters/kitchen)
+/area/crew_quarters/bar)
 "bdr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
@@ -45482,6 +45486,11 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"cye" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "cyg" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -46142,16 +46151,9 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "cBm" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Diner"
-	},
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/plasteel,
-/area/crew_quarters/bar)
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "cBn" = (
 /obj/machinery/camera{
 	c_tag = "Locker Room Toilets";
@@ -48799,12 +48801,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/security/prison)
-"ert" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "euI" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -49194,6 +49190,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
+"fKD" = (
+/obj/structure/chair/stool/bar,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "fPm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -49245,11 +49245,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison/safe)
-"gbl" = (
-/obj/effect/spawner/structure/window/hollow/reinforced,
-/obj/machinery/door/firedoor,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "gby" = (
 /obj/machinery/light{
 	dir = 1
@@ -49993,6 +49988,17 @@
 /obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/dark,
 /area/engine/engineering)
+"ijF" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
+"ikb" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "imW" = (
 /obj/machinery/door/airlock/security/glass{
 	id_tag = "permainner";
@@ -50968,10 +50974,6 @@
 	},
 /turf/open/floor/engine,
 /area/engine/engineering)
-"kQN" = (
-/obj/structure/chair/stool/bar,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "kRC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -51641,6 +51643,13 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/engine/engineering)
+"mDO" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "mFY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/vending/modularpc,
@@ -51876,6 +51885,11 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
+"nqI" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "nqM" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -52384,6 +52398,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"oJv" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/obj/item/toy/plush/goatplushie{
+	pixel_y = -5;
+	pixel_x = 8
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "oLh" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
@@ -53256,15 +53279,6 @@
 	},
 /turf/open/floor/plating,
 /area/science/xenobiology)
-"qzu" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green,
-/obj/item/toy/plush/goatplushie{
-	pixel_y = -5;
-	pixel_x = 8
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "qAf" = (
 /obj/structure/bed,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -53310,13 +53324,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
 /area/security/detectives_office)
-"qLD" = (
-/obj/structure/chair/comfy/brown{
-	dir = 1
-	},
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "qQw" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
@@ -53498,11 +53505,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
-"rBD" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "rFI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel/white,
@@ -53910,10 +53912,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"sNp" = (
-/obj/machinery/vending/snack/random,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "sNJ" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
@@ -53949,6 +53947,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"sTg" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "sUw" = (
 /obj/machinery/button/door{
 	id = "xenobio4";
@@ -54022,11 +54025,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/misc_lab)
-"tcz" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/soda_cans/cola,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "tcY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -54132,6 +54130,9 @@
 /obj/structure/window,
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/leafybush,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/grass,
 /area/hallway/primary/central)
 "tqd" = (
@@ -54420,11 +54421,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/science/research)
-"tZO" = (
-/obj/structure/table/wood,
-/obj/item/storage/box/donkpockets,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "ubo" = (
 /obj/structure/weightmachine/weightlifter,
 /obj/effect/decal/cleanable/dirt,
@@ -55409,11 +55405,6 @@
 	},
 /turf/open/space/basic,
 /area/space)
-"wDe" = (
-/obj/structure/chair/stool/bar,
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "wHs" = (
 /turf/closed/wall/r_wall,
 /area/security/courtroom)
@@ -55743,6 +55734,9 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/window,
+/obj/machinery/light/small{
+	dir = 1
+	},
 /turf/open/floor/grass,
 /area/hallway/primary/central)
 "xpa" = (
@@ -55934,6 +55928,11 @@
 /obj/machinery/computer/med_data,
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
+"yaQ" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/soda_cans/cola,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "yck" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -89555,7 +89554,7 @@ aJC
 bYP
 aQg
 aJC
-cBm
+bdq
 aJC
 aQg
 aJC
@@ -91610,7 +91609,7 @@ aKM
 aKM
 aKM
 aSp
-bdq
+aQc
 aQc
 aSq
 aQc
@@ -93415,9 +93414,9 @@ aJI
 aYK
 aJI
 aJI
-gbl
-rBD
-gbl
+nqI
+cye
+nqI
 bfK
 bhk
 bix
@@ -93674,7 +93673,7 @@ aJI
 bbz
 aVz
 aVz
-tcz
+yaQ
 bfK
 bhj
 biw
@@ -93928,10 +93927,10 @@ aVz
 aVz
 aYL
 aJI
-sNp
+cBm
 aVz
 aSK
-tZO
+ikb
 bfK
 bhl
 biy
@@ -94185,10 +94184,10 @@ aVB
 aVz
 aVz
 baj
-kQN
+fKD
 aVz
-ert
-qLD
+ijF
+mDO
 bfK
 bfK
 bfK
@@ -94442,10 +94441,10 @@ akS
 aXm
 aVz
 bak
-wDe
+sTg
 aVz
-ert
-qzu
+ijF
+oJv
 bfL
 bhn
 biz
@@ -94699,9 +94698,9 @@ cCq
 aVz
 cAg
 bak
-kQN
+fKD
 aVz
-ert
+ijF
 cAg
 bfL
 bhm
@@ -94956,9 +94955,9 @@ cCq
 aVz
 aVz
 tXW
-kQN
+fKD
 aVz
-ert
+ijF
 bdc
 bfL
 beY
@@ -95729,7 +95728,7 @@ aJI
 aJI
 aJI
 bcq
-rBD
+cye
 bcq
 bfL
 bhp
