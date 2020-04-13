@@ -20269,18 +20269,15 @@
 /turf/closed/wall,
 /area/crew_quarters/bar)
 "bbz" = (
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
-	},
-/area/hallway/primary/starboard)
+/obj/machinery/vending/cola/random,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bbA" = (
 /obj/machinery/camera{
 	c_tag = "Starboard Primary Hallway 2"
 	},
-/turf/open/floor/plasteel/white/corner{
-	dir = 1
-	},
-/area/hallway/primary/starboard)
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bbB" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -20562,8 +20559,9 @@
 /area/hallway/primary/central)
 "bcq" = (
 /obj/machinery/door/firedoor,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bcr" = (
 /obj/machinery/camera{
 	c_tag = "Starboard Primary Hallway"
@@ -20785,15 +20783,16 @@
 /area/bridge/meeting_room)
 "bdb" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/plasteel/white/side,
-/area/hallway/primary/starboard)
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bdc" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -30
 	},
 /obj/machinery/light,
-/turf/open/floor/plasteel/white/corner,
-/area/hallway/primary/starboard)
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bdd" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/wood,
@@ -20884,17 +20883,18 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "bdq" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
 	},
 /turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
+/area/crew_quarters/kitchen)
 "bdr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bds" = (
 /obj/machinery/camera{
 	c_tag = "Starboard Primary Hallway 4";
@@ -21354,10 +21354,9 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/warehouse)
 "bey" = (
-/turf/open/floor/plasteel/white/corner{
-	dir = 8
-	},
-/area/hallway/primary/starboard)
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "bez" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
@@ -46143,9 +46142,9 @@
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "cBm" = (
-/obj/effect/landmark/event_spawn,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
+/obj/machinery/vending/snack/random,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "cBn" = (
 /obj/machinery/camera{
 	c_tag = "Locker Room Toilets";
@@ -47929,6 +47928,11 @@
 	},
 /turf/closed/wall,
 /area/maintenance/starboard/aft)
+"cRa" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "cSb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -49168,6 +49172,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
+"fHw" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/soda_cans/cola,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "fJT" = (
 /obj/machinery/door/window/northleft{
 	base_state = "right";
@@ -49197,6 +49206,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/zone2)
+"fVg" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "fVK" = (
 /obj/machinery/light{
 	dir = 1
@@ -49910,6 +49925,11 @@
 "hZk" = (
 /turf/open/floor/plasteel,
 /area/science/nanite)
+"hZN" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "ibG" = (
 /obj/machinery/nanite_programmer,
 /obj/effect/turf_decal/bot,
@@ -51801,6 +51821,11 @@
 "mYY" = (
 /turf/open/floor/carpet,
 /area/medical/psychology)
+"nbd" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "ndR" = (
 /obj/structure/cable,
 /obj/machinery/photocopier,
@@ -52783,6 +52808,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
+"pzW" = (
+/obj/structure/chair/stool/bar,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "pAR" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -53746,6 +53775,11 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"svD" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "svW" = (
 /obj/machinery/holopad,
 /obj/structure/cable,
@@ -55696,6 +55730,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"xrr" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "xtO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -91549,7 +91589,7 @@ aKM
 aKM
 aKM
 aSp
-aQc
+bdq
 aQc
 aSq
 aQc
@@ -93097,7 +93137,7 @@ aXk
 aQc
 aQc
 aJC
-aYV
+bcs
 aYV
 bev
 bfK
@@ -93354,9 +93394,9 @@ aJI
 aYK
 aJI
 aJI
-bcs
-aYV
-aYV
+nbd
+hZN
+nbd
 bfK
 bhk
 bix
@@ -93611,9 +93651,9 @@ aVz
 aYJ
 aJI
 bbz
-aYV
-aYV
-aYV
+aVz
+aVz
+fHw
 bfK
 bhj
 biw
@@ -93867,10 +93907,10 @@ aVz
 aVz
 aYL
 aJI
-bbz
-aYV
-bdq
-aYV
+cBm
+aVz
+aSK
+cRa
 bfK
 bhl
 biy
@@ -94124,10 +94164,10 @@ aVB
 aVz
 aVz
 baj
-bbz
-aYV
-bdp
-aYV
+pzW
+aVz
+xrr
+fVg
 bfK
 bfK
 bfK
@@ -94381,10 +94421,10 @@ akS
 aXm
 aVz
 bak
-bbz
-aYV
-bdp
-aYV
+pzW
+aVz
+xrr
+svD
 bfL
 bhn
 biz
@@ -94638,10 +94678,10 @@ cCq
 aVz
 cAg
 bak
-bbz
-aYV
-bdp
-cBm
+pzW
+aVz
+xrr
+cAg
 bfL
 bhm
 bhm
@@ -94895,9 +94935,9 @@ cCq
 aVz
 aVz
 tXW
-bbz
-aYV
-bdp
+pzW
+aVz
+xrr
 bdc
 bfL
 beY
@@ -95153,7 +95193,7 @@ aVF
 aYM
 aJI
 bbA
-aYV
+aVz
 bdr
 bdb
 bdN
@@ -95409,9 +95449,9 @@ aVH
 aXn
 aYN
 aJI
-bbz
-aYV
-aYV
+bey
+aVz
+aVz
 bey
 bfL
 bhm
@@ -95668,7 +95708,7 @@ aJI
 aJI
 aJI
 bcq
-bcq
+hZN
 bcq
 bfL
 bhp
