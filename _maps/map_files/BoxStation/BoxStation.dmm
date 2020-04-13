@@ -25104,7 +25104,6 @@
 "bnZ" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
-/obj/item/gun/ballistic/revolver/golden,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
 "boa" = (
