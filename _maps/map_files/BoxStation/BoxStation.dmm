@@ -47928,11 +47928,6 @@
 	},
 /turf/closed/wall,
 /area/maintenance/starboard/aft)
-"cRa" = (
-/obj/structure/table/wood,
-/obj/item/storage/box/donkpockets,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "cSb" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -49172,11 +49167,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
-"fHw" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/food/drinks/soda_cans/cola,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "fJT" = (
 /obj/machinery/door/window/northleft{
 	base_state = "right";
@@ -49206,12 +49196,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/zone2)
-"fVg" = (
-/obj/structure/chair/comfy/brown{
-	dir = 1
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "fVK" = (
 /obj/machinery/light{
 	dir = 1
@@ -49925,11 +49909,6 @@
 "hZk" = (
 /turf/open/floor/plasteel,
 /area/science/nanite)
-"hZN" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "ibG" = (
 /obj/machinery/nanite_programmer,
 /obj/effect/turf_decal/bot,
@@ -50996,6 +50975,15 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary)
+"kTR" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/obj/item/toy/plush/goatplushie{
+	pixel_y = -5;
+	pixel_x = 8
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "kUg" = (
 /obj/structure/bed,
 /obj/item/bedsheet/red,
@@ -51078,6 +51066,11 @@
 /obj/machinery/atmospherics/pipe/manifold,
 /turf/open/floor/plasteel,
 /area/maintenance/disposal/incinerator)
+"leJ" = (
+/obj/structure/chair/stool/bar,
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "lhi" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -51821,11 +51814,6 @@
 "mYY" = (
 /turf/open/floor/carpet,
 /area/medical/psychology)
-"nbd" = (
-/obj/effect/spawner/structure/window/hollow/reinforced,
-/obj/machinery/door/firedoor,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "ndR" = (
 /obj/structure/cable,
 /obj/machinery/photocopier,
@@ -52808,10 +52796,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/engine/engine_smes)
-"pzW" = (
-/obj/structure/chair/stool/bar,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "pAR" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -52887,6 +52871,11 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/sleeper)
+"pHK" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "pIc" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/bot,
@@ -53775,11 +53764,6 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel,
 /area/security/prison)
-"svD" = (
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp/green,
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "svW" = (
 /obj/machinery/holopad,
 /obj/structure/cable,
@@ -54241,6 +54225,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"tzI" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "tCh" = (
 /obj/structure/cable,
 /obj/effect/spawner/structure/window/reinforced,
@@ -54349,6 +54339,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/storage/tools)
+"tTe" = (
+/obj/structure/chair/stool/bar,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "tTL" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -54403,6 +54397,13 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/science/research)
+"tYy" = (
+/obj/structure/chair/comfy/brown{
+	dir = 1
+	},
+/obj/effect/landmark/start/assistant,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "ubo" = (
 /obj/structure/weightmachine/weightlifter,
 /obj/effect/decal/cleanable/dirt,
@@ -54920,6 +54921,11 @@
 /obj/effect/spawner/lootdrop/maintenance/eight,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"vxp" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "vyA" = (
 /obj/machinery/holopad,
 /obj/effect/turf_decal/bot,
@@ -55434,6 +55440,11 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/fore/secondary)
+"wOW" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/drinks/soda_cans/cola,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "wQy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/disposalpipe/segment,
@@ -55730,12 +55741,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/security/prison)
-"xrr" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/cafeteria,
-/area/crew_quarters/kitchen)
 "xtO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
@@ -55745,6 +55750,11 @@
 /obj/structure/rack,
 /turf/open/floor/plating,
 /area/vacant_room/commissary)
+"xuK" = (
+/obj/structure/table/wood,
+/obj/item/storage/box/donkpockets,
+/turf/open/floor/plasteel/cafeteria,
+/area/crew_quarters/kitchen)
 "xwN" = (
 /turf/open/floor/plating,
 /area/engine/engine_smes)
@@ -93394,9 +93404,9 @@ aJI
 aYK
 aJI
 aJI
-nbd
-hZN
-nbd
+vxp
+pHK
+vxp
 bfK
 bhk
 bix
@@ -93653,7 +93663,7 @@ aJI
 bbz
 aVz
 aVz
-fHw
+wOW
 bfK
 bhj
 biw
@@ -93910,7 +93920,7 @@ aJI
 cBm
 aVz
 aSK
-cRa
+xuK
 bfK
 bhl
 biy
@@ -94164,10 +94174,10 @@ aVB
 aVz
 aVz
 baj
-pzW
+tTe
 aVz
-xrr
-fVg
+tzI
+tYy
 bfK
 bfK
 bfK
@@ -94421,10 +94431,10 @@ akS
 aXm
 aVz
 bak
-pzW
+leJ
 aVz
-xrr
-svD
+tzI
+kTR
 bfL
 bhn
 biz
@@ -94678,9 +94688,9 @@ cCq
 aVz
 cAg
 bak
-pzW
+tTe
 aVz
-xrr
+tzI
 cAg
 bfL
 bhm
@@ -94935,9 +94945,9 @@ cCq
 aVz
 aVz
 tXW
-pzW
+tTe
 aVz
-xrr
+tzI
 bdc
 bfL
 beY
@@ -95708,7 +95718,7 @@ aJI
 aJI
 aJI
 bcq
-hZN
+pHK
 bcq
 bfL
 bhp
