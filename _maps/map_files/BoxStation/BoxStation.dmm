@@ -17855,14 +17855,26 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/turf/open/floor/plasteel/dark,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/statue/diamond/ai1,
+/turf/open/floor/plating/grass,
 /area/bridge)
 "aVl" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 1
 	},
 /obj/structure/cable,
-/turf/open/floor/plasteel/dark,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/stalkybush,
+/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/plating/grass,
 /area/bridge)
 "aVo" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -26670,6 +26682,14 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
+/mob/living/simple_animal/bot/secbot{
+	arrest_type = 1;
+	health = 45;
+	icon_state = "secbot1";
+	idcheck = 1;
+	name = "Sergeant-at-Armsky";
+	weaponscheck = 1
+	},
 /turf/open/floor/plasteel,
 /area/teleporter)
 "bsn" = (
@@ -28351,12 +28371,21 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/sleeper)
 "bxa" = (
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_access_txt = "17"
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
 	},
-/turf/open/floor/plasteel,
-/area/teleporter)
+/obj/structure/cable,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/open/floor/plating/grass,
+/area/bridge)
 "bxb" = (
 /obj/structure/chair,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -47894,6 +47923,13 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"cPD" = (
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/teleporter)
 "cPH" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -48401,6 +48437,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"dsr" = (
+/obj/machinery/door/firedoor,
+/turf/open/floor/plasteel,
+/area/teleporter)
 "dtc" = (
 /obj/machinery/photocopier,
 /turf/open/floor/wood,
@@ -48685,13 +48725,6 @@
 	},
 /turf/open/floor/plating,
 /area/security/prison/safe)
-"eam" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/obj/structure/closet/emcloset,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "ebG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
@@ -49910,6 +49943,13 @@
 "hTU" = (
 /turf/closed/wall/r_wall,
 /area/medical/chemistry)
+"hYz" = (
+/obj/machinery/door/airlock/command{
+	name = "Teleport Access";
+	req_access_txt = "17"
+	},
+/turf/open/floor/plasteel,
+/area/teleporter)
 "hYR" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /turf/open/floor/plating,
@@ -50014,9 +50054,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/misc_lab)
-"itW" = (
-/turf/open/floor/plasteel,
-/area/teleporter)
 "iup" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -50030,6 +50067,11 @@
 	},
 /turf/open/floor/plating,
 /area/security/execution/transfer)
+"iwZ" = (
+/obj/structure/cable,
+/obj/structure/disposalpipe/junction/flip,
+/turf/open/floor/plasteel,
+/area/teleporter)
 "izT" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -50098,12 +50140,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/department/electrical)
-"iCa" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "iCB" = (
 /obj/structure/table,
 /obj/item/clothing/under/rank/prisoner/skirt{
@@ -50121,12 +50157,6 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel,
 /area/security/prison)
-"iCT" = (
-/obj/machinery/door/airlock/medical/glass{
-	name = "Surgery Observation"
-	},
-/turf/open/floor/plasteel/dark,
-/area/medical/sleeper)
 "iDG" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
@@ -50215,6 +50245,12 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"iVg" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/teleporter)
 "iZd" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = 32
@@ -50307,9 +50343,6 @@
 	},
 /turf/closed/wall/r_wall,
 /area/security/courtroom)
-"jlj" = (
-/turf/closed/wall/r_wall,
-/area/medical/pharmacy)
 "jly" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -50555,13 +50588,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/prison/safe)
-"jMg" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/computer/crew{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "jMF" = (
 /obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -51323,6 +51349,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
+"lHd" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/machinery/computer/crew{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/teleporter)
 "lHy" = (
 /obj/machinery/door/airlock/security{
 	name = "Permanent Cell 2"
@@ -51661,11 +51694,6 @@
 /obj/machinery/vending/modularpc,
 /turf/open/floor/plasteel,
 /area/storage/primary)
-"mIR" = (
-/obj/structure/cable,
-/obj/structure/disposalpipe/junction/flip,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "mJd" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -51977,9 +52005,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/security/prison)
-"nwr" = (
-/turf/closed/wall/r_wall,
-/area/medical/sleeper)
 "nxv" = (
 /obj/machinery/power/apc{
 	areastring = "/area/construction";
@@ -52243,6 +52268,13 @@
 /obj/structure/cable,
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"oaa" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/closet/emcloset,
+/turf/open/floor/plasteel,
+/area/teleporter)
 "ofT" = (
 /obj/machinery/computer/bounty,
 /turf/open/floor/plasteel,
@@ -53068,6 +53100,11 @@
 	},
 /turf/closed/wall,
 /area/quartermaster/sorting)
+"pWG" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable,
+/turf/closed/wall/r_wall,
+/area/teleporter)
 "pWN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -53472,6 +53509,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"rxP" = (
+/turf/open/floor/plasteel,
+/area/teleporter)
 "ryM" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/maintenance/three,
@@ -53589,6 +53629,11 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
+"rPs" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/teleporter)
 "rPX" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
@@ -53879,6 +53924,22 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
+"sDV" = (
+/turf/closed/wall/r_wall,
+/area/medical/sleeper)
+"sEe" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/sunnybush,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/plating/grass,
+/area/bridge)
 "sFZ" = (
 /obj/machinery/hydroponics/soil,
 /obj/effect/turf_decal/tile/green,
@@ -54198,6 +54259,10 @@
 /obj/item/storage/toolbox/emergency,
 /turf/open/floor/plasteel,
 /area/hallway/primary/port)
+"tsT" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plasteel,
+/area/teleporter)
 "tti" = (
 /obj/structure/chair/stool{
 	pixel_y = 8
@@ -54511,11 +54576,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/mixing)
-"uqa" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/table,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "usX" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 9
@@ -54595,11 +54655,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
-"uDf" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/closed/wall/r_wall,
-/area/teleporter)
 "uEq" = (
 /obj/structure/sign/warning/fire{
 	pixel_x = -32
@@ -54632,10 +54687,6 @@
 /obj/item/bedsheet/medical,
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/zone2)
-"uGn" = (
-/obj/machinery/door/firedoor,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "uGz" = (
 /obj/machinery/vending/wardrobe/chem_wardrobe,
 /turf/open/floor/plasteel/white,
@@ -54693,10 +54744,6 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/security/prison/safe)
-"uKC" = (
-/obj/structure/closet/firecloset/full,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "uPT" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_interior,
@@ -54874,6 +54921,12 @@
 /obj/structure/sign/warning/biohazard,
 /turf/closed/wall/r_wall,
 /area/medical/chemistry)
+"vkt" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Surgery Observation"
+	},
+/turf/open/floor/plasteel/dark,
+/area/medical/sleeper)
 "vkD" = (
 /obj/effect/landmark/event_spawn,
 /obj/structure/cable,
@@ -55362,6 +55415,21 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
+"wqT" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/plating/grass,
+/area/bridge)
 "wrp" = (
 /obj/machinery/light{
 	dir = 8
@@ -55418,6 +55486,9 @@
 	},
 /turf/open/space/basic,
 /area/space)
+"wEm" = (
+/turf/closed/wall/r_wall,
+/area/medical/pharmacy)
 "wHs" = (
 /turf/closed/wall/r_wall,
 /area/security/courtroom)
@@ -55846,13 +55917,6 @@
 /obj/structure/bed,
 /turf/open/floor/plasteel,
 /area/security/prison/safe)
-"xKv" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "xLe" = (
 /obj/structure/lattice,
 /obj/structure/lattice,
@@ -84429,7 +84493,7 @@ aPS
 aRk
 aSw
 aTW
-aVi
+bxa
 aWQ
 aYv
 aZR
@@ -85200,7 +85264,7 @@ aPS
 aRp
 aSB
 aTZ
-aVi
+sEe
 aWV
 aYz
 aZR
@@ -85457,7 +85521,7 @@ aPS
 aRo
 aSA
 aTX
-aVi
+wqT
 aWU
 aYy
 aZR
@@ -88811,15 +88875,15 @@ aYG
 aYG
 aYG
 ble
-uqa
-uqa
+rPs
+rPs
 bpn
 bqL
 bsp
 btO
 bva
-mIR
-uDf
+iwZ
+pWG
 bwu
 bwu
 bBB
@@ -89067,15 +89131,15 @@ aJq
 aJq
 aJq
 aJq
-bxa
-itW
-itW
-itW
-uGn
-itW
+hYz
+rxP
+rxP
+rxP
+dsr
+rxP
 bAk
-itW
-iCa
+rxP
+iVg
 bqH
 aJq
 bAj
@@ -89327,12 +89391,12 @@ qdT
 bqH
 bAi
 bmS
-jMg
+lHd
 bpC
 bqN
-eam
-uKC
-xKv
+oaa
+tsT
+cPD
 bxL
 byX
 aJq
@@ -89581,18 +89645,18 @@ bfF
 bfF
 bfF
 bfF
-jlj
-jlj
-jlj
-jlj
-jlj
+wEm
+wEm
+wEm
+wEm
+wEm
 bqM
 brV
 bJE
 bwv
-nwr
+sDV
 bvj
-iCT
+vkt
 bvj
 bvj
 bvj
