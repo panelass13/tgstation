@@ -25102,6 +25102,7 @@
 "bnZ" = (
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
+/obj/item/gun/ballistic/revolver/golden,
 /turf/open/floor/carpet,
 /area/crew_quarters/heads/captain)
 "boa" = (
@@ -48837,6 +48838,13 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
+"eHd" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/public/glass{
+	name = "Central Access"
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "eIE" = (
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
@@ -50013,6 +50021,10 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
+"iAh" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plasteel,
+/area/security/checkpoint/medical)
 "iBg" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 8
@@ -50733,10 +50745,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
-"koy" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plasteel,
-/area/security/checkpoint/medical)
 "kul" = (
 /turf/closed/wall,
 /area/engine/engine_smes)
@@ -52646,13 +52654,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
-"pru" = (
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/public/glass{
-	name = "Central Access"
-	},
-/turf/open/floor/plasteel/white,
-/area/medical/medbay/central)
 "prC" = (
 /obj/item/radio/intercom{
 	pixel_x = -29
@@ -92589,7 +92590,7 @@ aJC
 aYV
 aYV
 bet
-pru
+eHd
 bhh
 bhh
 bgQ
@@ -93874,7 +93875,7 @@ aMa
 aVz
 aSK
 aNB
-koy
+iAh
 bhl
 biy
 bjY
