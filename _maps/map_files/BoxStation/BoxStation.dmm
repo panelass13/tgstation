@@ -19272,9 +19272,6 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "aYM" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
 /obj/machinery/button/door{
 	id = "kitchen";
 	name = "Kitchen Shutters Control";
@@ -19282,6 +19279,7 @@
 	pixel_y = -24;
 	req_access_txt = "28"
 	},
+/obj/structure/disposalpipe/junction/flip,
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "aYN" = (
@@ -20254,6 +20252,10 @@
 "bbA" = (
 /obj/machinery/camera{
 	c_tag = "Starboard Primary Hallway 2"
+	},
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
@@ -49769,6 +49771,10 @@
 	},
 /turf/open/floor/engine,
 /area/science/xenobiology)
+"hDW" = (
+/obj/structure/disposalpipe/segment,
+/turf/closed/wall,
+/area/crew_quarters/kitchen)
 "hET" = (
 /obj/structure/chair{
 	dir = 8
@@ -95155,7 +95161,7 @@ aVF
 aVF
 aVF
 aYM
-aJI
+hDW
 bbA
 aVz
 bdr
