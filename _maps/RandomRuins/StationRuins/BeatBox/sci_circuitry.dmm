@@ -298,7 +298,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 4
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "kO" = (
@@ -752,7 +752,7 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/white,
 /area/science/circuitry)
 "Wu" = (
@@ -765,7 +765,7 @@
 /obj/structure/sign/warning/nosmoking{
 	pixel_y = -32
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple,

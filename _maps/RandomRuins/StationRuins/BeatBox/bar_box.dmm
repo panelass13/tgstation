@@ -1267,7 +1267,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "cY" = (
@@ -1367,7 +1367,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/item/twohanded/required/kirbyplants/random,
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 
