@@ -24163,6 +24163,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/mob/living/simple_animal/bot/floorbot,
 /turf/open/floor/plasteel,
 /area/science/robotics/lab)
 "blD" = (
@@ -49180,6 +49181,11 @@
 /obj/item/reagent_containers/spray/pepper,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"fAx" = (
+/obj/structure/cable,
+/mob/living/simple_animal/bot/medbot,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "fBs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/table/wood,
@@ -49321,6 +49327,12 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel,
 /area/security/courtroom)
+"gji" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/toilet)
 "gjl" = (
 /turf/closed/wall,
 /area/quartermaster/warehouse)
@@ -49771,6 +49783,10 @@
 /mob/living/simple_animal/mouse/brown/Tom,
 /turf/open/floor/plating,
 /area/security/prison/safe)
+"hvf" = (
+/mob/living/simple_animal/bot/hygienebot,
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/toilet)
 "hww" = (
 /obj/structure/bed,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -52341,12 +52357,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/central)
-"orT" = (
-/obj/machinery/door/airlock{
-	name = "Unisex Restrooms"
-	},
-/turf/open/floor/plasteel/freezer,
-/area/crew_quarters/toilet)
 "osq" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
@@ -55680,6 +55690,10 @@
 /obj/structure/sign/warning/electricshock,
 /turf/open/floor/plating,
 /area/science/xenobiology)
+"xdT" = (
+/mob/living/simple_animal/bot/secbot/grievous,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "xeP" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -55980,6 +55994,10 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
+"xWE" = (
+/mob/living/simple_animal/bot/secbot/grievous,
+/turf/open/floor/plasteel,
+/area/hallway/primary/starboard)
 "xXe" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel/dark,
@@ -80914,7 +80932,7 @@ aJq
 aJq
 aJq
 aJq
-aJq
+xdT
 aJq
 aJq
 aJq
@@ -88614,7 +88632,7 @@ aDM
 aGx
 aAh
 aAh
-aBy
+hvf
 aAh
 aMm
 aJq
@@ -88872,7 +88890,7 @@ aGx
 aGm
 aHV
 aBy
-orT
+gji
 aJq
 aJq
 aJq
@@ -89386,7 +89404,7 @@ aGx
 aGn
 aHW
 aBy
-orT
+gji
 aJq
 aJq
 aJq
@@ -92752,7 +92770,7 @@ bhh
 bhh
 bpv
 bhh
-bsx
+fAx
 btV
 bvh
 bwF
@@ -97367,7 +97385,7 @@ aYR
 ban
 aYV
 aYV
-aYV
+xWE
 bez
 bfP
 bfS
