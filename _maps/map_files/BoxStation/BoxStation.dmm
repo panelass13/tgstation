@@ -27314,9 +27314,6 @@
 	pixel_y = -22
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
-/obj/effect/turf_decal/loading_area{
-	dir = 4
-	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "buj" = (
@@ -28146,11 +28143,6 @@
 /turf/open/floor/plasteel/dark,
 /area/medical/sleeper)
 "bwx" = (
-/obj/machinery/door/window/eastleft{
-	name = "Medical Delivery";
-	req_access_txt = "5"
-	},
-/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/medical/medbay/central)
 "bwy" = (
@@ -51685,6 +51677,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
+"mAz" = (
+/obj/item/station_charter/flag,
+/turf/open/floor/wood,
+/area/crew_quarters/heads/captain)
 "mBm" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -88368,7 +88364,7 @@ aVv
 siG
 aVv
 aZV
-bbw
+mAz
 bcn
 hec
 ben
