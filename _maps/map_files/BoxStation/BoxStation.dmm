@@ -52341,6 +52341,12 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/central)
+"orT" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/toilet)
 "osq" = (
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plasteel/dark,
@@ -88866,7 +88872,7 @@ aGx
 aGm
 aHV
 aBy
-aAh
+orT
 aJq
 aJq
 aJq
@@ -89380,7 +89386,7 @@ aGx
 aGn
 aHW
 aBy
-aAh
+orT
 aJq
 aJq
 aJq
