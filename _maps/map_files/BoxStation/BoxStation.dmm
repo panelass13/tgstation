@@ -13779,6 +13779,7 @@
 	c_tag = "Dormitory Toilets";
 	dir = 1
 	},
+/obj/structure/closet/crate/bin,
 /turf/open/floor/plasteel/freezer,
 /area/crew_quarters/toilet)
 "aJA" = (
@@ -49734,6 +49735,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/fore)
+"hjw" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "hnW" = (
 /obj/effect/spawner/structure/window/reinforced{
 	pixel_w = 1
@@ -52434,6 +52439,10 @@
 "owU" = (
 /turf/closed/wall,
 /area/security/execution/transfer)
+"oxg" = (
+/obj/structure/closet/crate/bin,
+/turf/open/floor/plasteel,
+/area/hallway/primary/starboard)
 "oxs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
@@ -84044,7 +84053,7 @@ ayW
 ayW
 aJn
 aJn
-aJq
+hjw
 aJq
 aOE
 aPS
@@ -86100,7 +86109,7 @@ anF
 ahn
 aJn
 aJn
-aJq
+hjw
 aJq
 aOE
 aPS
@@ -91766,7 +91775,7 @@ aSq
 aQc
 bad
 bby
-aYV
+oxg
 aYV
 bet
 bfG
@@ -97162,7 +97171,7 @@ aRJ
 aRJ
 aYQ
 bam
-aYV
+oxg
 aYV
 aYV
 aYV
