@@ -70,10 +70,10 @@
 	suffix = "sci_experimentor.dmm"
 	name = "Experimentor Lab"
 
-/datum/map_template/ruin/station/box/sci/circuitry
-	id = "sci_circuitry"
-	suffix = "sci_circuitry.dmm"
-	name = "Circuitry Lab"
+/datum/map_template/ruin/station/box/sci/breakroom
+	id = "sci_breakroom"
+	suffix = "sci_breakroom.dmm"
+	name = "Break Room"
 
 /datum/map_template/ruin/station/box/atmos_maint/detective
 	id = "maint_detective"

@@ -52,7 +52,7 @@
 	icon_state = "xenobio_maint_default"
 
 /obj/effect/landmark/stationroom/box/telescience
-	template_names = list("Telescience Lab", "Experimentor Lab", "Circuitry Lab")
+	template_names = list("Telescience Lab", "Experimentor Lab", "Break Room")
 	icon = 'beatstation/icons/rooms/sci_telescience.dmi'
 	icon_state = "telescience"
 
