@@ -2920,6 +2920,7 @@
 	pixel_x = -25
 	},
 /obj/structure/cable,
+/mob/living/simple_animal/bot/secbot/ed209,
 /turf/open/floor/plasteel/showroomfloor,
 /area/security/warden)
 "ahw" = (
@@ -49733,10 +49734,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/maintenance/fore)
-"hjw" = (
-/mob/living/simple_animal/bot/secbot/grievous,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
 "hnW" = (
 /obj/effect/spawner/structure/window/reinforced{
 	pixel_w = 1
@@ -52437,10 +52434,6 @@
 "owU" = (
 /turf/closed/wall,
 /area/security/execution/transfer)
-"oxg" = (
-/mob/living/simple_animal/bot/secbot/grievous,
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
 "oxs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 6
@@ -80975,7 +80968,7 @@ aJq
 aJq
 aJq
 aJq
-oxg
+aJq
 aJq
 aJq
 aJq
@@ -97428,7 +97421,7 @@ aYR
 ban
 aYV
 aYV
-hjw
+aYV
 bez
 bfP
 bfS
