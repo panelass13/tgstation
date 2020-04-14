@@ -5731,6 +5731,12 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
+/obj/structure/table,
+/obj/item/book/manual/wiki/security_space_law,
+/obj/item/flashlight/lamp/green{
+	pixel_y = 6;
+	pixel_x = 15
+	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
 "any" = (
@@ -5743,6 +5749,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 1
 	},
+/obj/structure/chair,
 /turf/open/floor/plasteel,
 /area/hallway/primary/fore)
 "anz" = (
@@ -49181,11 +49188,6 @@
 /obj/item/reagent_containers/spray/pepper,
 /turf/open/floor/plasteel,
 /area/security/prison)
-"fAx" = (
-/obj/structure/cable,
-/mob/living/simple_animal/bot/medbot,
-/turf/open/floor/plasteel/white,
-/area/medical/medbay/central)
 "fBs" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/table/wood,
@@ -49224,6 +49226,13 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
+"fNd" = (
+/obj/structure/window/reinforced,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/statue/silver/sec,
+/turf/open/floor/plating/grass,
+/area/hallway/primary/fore)
 "fPm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -49327,12 +49336,6 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel,
 /area/security/courtroom)
-"gji" = (
-/obj/machinery/door/airlock{
-	name = "Unisex Restrooms"
-	},
-/turf/open/floor/plasteel/freezer,
-/area/crew_quarters/toilet)
 "gjl" = (
 /turf/closed/wall,
 /area/quartermaster/warehouse)
@@ -49783,10 +49786,6 @@
 /mob/living/simple_animal/mouse/brown/Tom,
 /turf/open/floor/plating,
 /area/security/prison/safe)
-"hvf" = (
-/mob/living/simple_animal/bot/hygienebot,
-/turf/open/floor/plasteel/freezer,
-/area/crew_quarters/toilet)
 "hww" = (
 /obj/structure/bed,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -50061,6 +50060,18 @@
 /obj/effect/turf_decal/tile/purple,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
+"iph" = (
+/obj/structure/sign/warning/electricshock{
+	pixel_y = 32
+	},
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/sunnybush,
+/turf/open/floor/plating/grass,
+/area/hallway/primary/fore)
 "ipA" = (
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
@@ -50094,6 +50105,10 @@
 /obj/structure/disposalpipe/junction/flip,
 /turf/open/floor/plasteel,
 /area/teleporter)
+"ixQ" = (
+/mob/living/simple_animal/bot/secbot/grievous,
+/turf/open/floor/plasteel,
+/area/hallway/primary/starboard)
 "izT" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -50866,6 +50881,13 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
+"kxq" = (
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/obj/structure/chair,
+/turf/open/floor/plasteel,
+/area/hallway/primary/fore)
 "kxC" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -51499,6 +51521,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
+"lUK" = (
+/mob/living/simple_animal/bot/secbot/grievous,
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "lUY" = (
 /obj/machinery/door/airlock/security{
 	name = "Permanent Cell 4"
@@ -51582,6 +51608,11 @@
 /obj/machinery/nuclearbomb/beer,
 /turf/open/floor/plating,
 /area/maintenance/starboard/fore)
+"mgE" = (
+/obj/structure/cable,
+/mob/living/simple_animal/bot/medbot,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "miU" = (
 /obj/machinery/door/airlock/security{
 	name = "Permanent Cell 6"
@@ -52220,6 +52251,10 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel,
 /area/science/mixing)
+"nWv" = (
+/mob/living/simple_animal/bot/hygienebot,
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/toilet)
 "nWA" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -52918,6 +52953,12 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel/dark,
 /area/science/nanite)
+"pFC" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms"
+	},
+/turf/open/floor/plasteel/freezer,
+/area/crew_quarters/toilet)
 "pFW" = (
 /obj/machinery/door/airlock/security{
 	name = "Isolation Cell";
@@ -53824,6 +53865,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
+"ssx" = (
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/open/floor/plating/grass,
+/area/hallway/primary/fore)
 "suU" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -55690,10 +55740,6 @@
 /obj/structure/sign/warning/electricshock,
 /turf/open/floor/plating,
 /area/science/xenobiology)
-"xdT" = (
-/mob/living/simple_animal/bot/secbot/grievous,
-/turf/open/floor/plasteel,
-/area/hallway/primary/central)
 "xeP" = (
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
@@ -55994,10 +56040,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/chemistry)
-"xWE" = (
-/mob/living/simple_animal/bot/secbot/grievous,
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard)
 "xXe" = (
 /obj/structure/closet/radiation,
 /turf/open/floor/plasteel/dark,
@@ -80932,7 +80974,7 @@ aJq
 aJq
 aJq
 aJq
-xdT
+lUK
 aJq
 aJq
 aJq
@@ -82444,7 +82486,7 @@ akM
 aly
 amf
 amQ
-anw
+kxq
 anz
 aov
 ard
@@ -82701,7 +82743,7 @@ akO
 alx
 alx
 amQ
-anw
+kxq
 anz
 aox
 aph
@@ -82958,7 +83000,7 @@ akN
 alw
 amg
 amQ
-anw
+kxq
 anR
 aow
 qHT
@@ -83472,7 +83514,7 @@ akM
 aly
 amh
 amQ
-anw
+kxq
 anz
 aov
 apd
@@ -83729,7 +83771,7 @@ akR
 alx
 alx
 amQ
-anw
+kxq
 anz
 aov
 bON
@@ -83986,7 +84028,7 @@ akN
 alw
 ami
 amQ
-anw
+kxq
 anz
 aov
 baV
@@ -84500,7 +84542,7 @@ akM
 aly
 amj
 amQ
-anw
+kxq
 anz
 aov
 apd
@@ -84757,7 +84799,7 @@ akT
 aww
 alx
 amQ
-anw
+ssx
 anz
 aov
 apk
@@ -85014,7 +85056,7 @@ akN
 alw
 amk
 amQ
-anw
+fNd
 anS
 aoy
 apj
@@ -85271,7 +85313,7 @@ agj
 agj
 agj
 aiX
-anx
+iph
 anz
 aoz
 apm
@@ -88632,7 +88674,7 @@ aDM
 aGx
 aAh
 aAh
-hvf
+nWv
 aAh
 aMm
 aJq
@@ -88890,7 +88932,7 @@ aGx
 aGm
 aHV
 aBy
-gji
+pFC
 aJq
 aJq
 aJq
@@ -89404,7 +89446,7 @@ aGx
 aGn
 aHW
 aBy
-gji
+pFC
 aJq
 aJq
 aJq
@@ -92770,7 +92812,7 @@ bhh
 bhh
 bpv
 bhh
-fAx
+mgE
 btV
 bvh
 bwF
@@ -97385,7 +97427,7 @@ aYR
 ban
 aYV
 aYV
-xWE
+ixQ
 bez
 bfP
 bfS
