@@ -54923,7 +54923,9 @@
 /area/medical/chemistry)
 "vkt" = (
 /obj/machinery/door/airlock/medical/glass{
-	name = "Surgery Observation"
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access_txt = "5"
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/sleeper)
@@ -89140,7 +89142,7 @@ rxP
 bAk
 rxP
 iVg
-bqH
+hYz
 aJq
 bAj
 aJq
