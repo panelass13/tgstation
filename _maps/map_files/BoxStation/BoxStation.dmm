@@ -18700,16 +18700,15 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aXk" = (
-/obj/structure/table/reinforced,
 /obj/machinery/computer/security/telescreen/entertainment{
 	pixel_x = 32
 	},
-/obj/item/book/manual/wiki/barman_recipes,
-/obj/item/reagent_containers/glass/rag,
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+/obj/machinery/jukebox,
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aXl" = (
@@ -49137,6 +49136,15 @@
 /obj/item/hand_labeler,
 /turf/open/floor/plasteel,
 /area/quartermaster/office)
+"frP" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/item/reagent_containers/glass/rag,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "fsC" = (
 /obj/structure/cable,
 /turf/closed/wall,
@@ -49757,6 +49765,12 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
 /area/security/prison/safe)
+"htF" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar,
+/obj/item/book/manual/wiki/barman_recipes,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "huZ" = (
 /obj/machinery/light/small{
 	brightness = 3;
@@ -92462,7 +92476,7 @@ aJC
 aXj
 aVy
 aSY
-aVy
+frP
 wlq
 aYI
 bah
@@ -92720,7 +92734,7 @@ aQc
 aQc
 aSZ
 aQc
-aVy
+htF
 czP
 bag
 aJC
