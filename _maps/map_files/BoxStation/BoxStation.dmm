@@ -11038,6 +11038,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/metal_detector{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "aCW" = (
@@ -18294,6 +18297,9 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
+/obj/machinery/metal_detector{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "aWK" = (
@@ -18538,6 +18544,9 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/metal_detector{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -20036,6 +20045,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
+/obj/machinery/metal_detector,
 /turf/open/floor/wood,
 /area/bridge/meeting_room)
 "bbj" = (
@@ -26580,6 +26590,7 @@
 	pixel_x = 27
 	},
 /obj/structure/cable,
+/obj/machinery/metal_detector,
 /turf/open/floor/plasteel,
 /area/teleporter)
 "bsp" = (
@@ -50400,6 +50411,12 @@
 /obj/machinery/atmospherics/pipe/simple/orange/visible,
 /turf/open/floor/plating,
 /area/engine/atmos)
+"jBq" = (
+/obj/machinery/metal_detector{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/hallway/secondary/exit)
 "jBV" = (
 /obj/machinery/computer/warrant{
 	dir = 4
@@ -50711,6 +50728,13 @@
 "kul" = (
 /turf/closed/wall,
 /area/engine/engine_smes)
+"kuX" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/cable,
+/obj/machinery/metal_detector,
+/turf/open/floor/wood,
+/area/bridge/meeting_room)
 "kvJ" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable,
@@ -53344,6 +53368,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/metal_detector{
+	dir = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/bridge)
 "rkb" = (
@@ -53957,6 +53984,9 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/metal_detector{
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
@@ -83185,7 +83215,7 @@ bcd
 bcd
 bcd
 bcd
-bcd
+kuX
 bms
 bnS
 bnS
@@ -106299,17 +106329,17 @@ aaf
 aaf
 aaa
 aNa
-aQE
+jBq
 aNa
-aQE
+jBq
 aNa
 aaf
 aaf
 aaf
 aNa
-aQE
+jBq
 aNa
-aQE
+jBq
 aNa
 aaa
 aaf
