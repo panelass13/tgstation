@@ -49413,10 +49413,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
-"gsB" = (
-/obj/machinery/sleeper/port_a_medbay,
-/turf/open/floor/plasteel/white,
-/area/medical/medbay/central)
 "gwd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -55388,6 +55384,10 @@
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/wood,
 /area/crew_quarters/dorms)
+"wkm" = (
+/obj/machinery/sleeper/port_a_medbay,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "wkE" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Permabrig Maintenance";
@@ -55524,6 +55524,10 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"wtx" = (
+/obj/machinery/rnd/production/protolathe/department/science,
+/turf/open/floor/plasteel/white,
+/area/science/robotics/lab)
 "wws" = (
 /obj/machinery/door/airlock/security{
 	name = "Prison Forestry"
@@ -93072,7 +93076,7 @@ bln
 bmM
 boj
 bof
-gsB
+wkm
 bsx
 btV
 bvj
@@ -93329,7 +93333,7 @@ bfK
 bfK
 bfK
 bof
-gsB
+wkm
 bsx
 btV
 bvh
@@ -100269,7 +100273,7 @@ blG
 biL
 cHV
 cIa
-biL
+wtx
 box
 buo
 bvc
