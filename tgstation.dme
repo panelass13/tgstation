@@ -1182,6 +1182,7 @@
 #include "code\game\objects\structures\watercloset.dm"
 #include "code\game\objects\structures\windoor_assembly.dm"
 #include "code\game\objects\structures\window.dm"
+#include "code\game\objects\structures\wrestling_ring.dm"
 #include "code\game\objects\structures\beds_chairs\alien_nest.dm"
 #include "code\game\objects\structures\beds_chairs\bed.dm"
 #include "code\game\objects\structures\beds_chairs\chair.dm"
