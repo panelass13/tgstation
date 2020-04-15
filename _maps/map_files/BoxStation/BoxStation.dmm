@@ -26860,6 +26860,7 @@
 	dir = 1;
 	network = list("ss13","rd")
 	},
+/obj/machinery/autolathe,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bsT" = (
