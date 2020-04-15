@@ -221,3 +221,4 @@ tools/MapAtmosFixer/MapAtmosFixer/bin/*
 !/config/title_screens/images/exclude
 config/admins.txt
 config/config.txt
+config/admins.txt

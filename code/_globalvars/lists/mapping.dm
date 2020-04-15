@@ -34,6 +34,7 @@ GLOBAL_LIST_EMPTY(blobstart) //stationloving objects, blobs, santa, respawning d
 GLOBAL_LIST_EMPTY(secequipment) //sec equipment lockers that scale with the number of sec players
 GLOBAL_LIST_EMPTY(deathsquadspawn)
 GLOBAL_LIST_EMPTY(emergencyresponseteamspawn)
+GLOBAL_LIST_EMPTY(slaverspawn)
 GLOBAL_LIST_EMPTY(ruin_landmarks)
 
 //away missions

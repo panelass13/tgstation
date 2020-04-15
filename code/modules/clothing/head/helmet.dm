@@ -158,6 +158,48 @@
 	resistance_flags = FIRE_PROOF | ACID_PROOF
 	dog_fashion = null
 
+/obj/item/clothing/head/helmet/slaver
+	name = "\improper slaver helmet"
+	desc = "An extremely robust, space-worthy helmet."
+	icon_state = "soulbreaker0"
+	item_state = "soulbreaker0"
+	armor = list("melee" = 50, "bullet" = 30, "laser" = 30,"energy" = 40, "bomb" = 50, "bio" = 90, "rad" = 20, "fire" = 100, "acid" = 100)
+	cold_protection = HEAD
+	min_cold_protection_temperature = SPACE_HELM_MIN_TEMP_PROTECT
+	heat_protection = HEAD
+	max_heat_protection_temperature = SPACE_HELM_MAX_TEMP_PROTECT
+	clothing_flags = STOPSPRESSUREDAMAGE
+	strip_delay = 80
+	var/brightness_on = 6
+	var/on = FALSE
+	actions_types = list(/datum/action/item_action/toggle_helmet_light)
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+	dog_fashion = null
+
+/obj/item/clothing/head/helmet/slaver/ComponentInitialize()
+	. = ..()
+	AddElement(/datum/element/update_icon_updates_onmob)
+
+/obj/item/clothing/head/helmet/slaver/attack_self(mob/living/user)
+	toggle_helmet_light(user)
+
+/obj/item/clothing/head/helmet/slaver/proc/toggle_helmet_light(mob/living/user)
+	on = !on
+	if(on)
+		turn_on(user)
+	else
+		turn_off(user)
+	update_icon()
+
+/obj/item/clothing/head/helmet/slaver/update_icon_state()
+	icon_state = item_state = "soulbreaker[on]"
+
+/obj/item/clothing/head/helmet/slaver/proc/turn_on(mob/user)
+	set_light(brightness_on)
+
+/obj/item/clothing/head/helmet/slaver/proc/turn_off(mob/user)
+	set_light(0)
+
 /obj/item/clothing/head/helmet/police
 	name = "police officer's hat"
 	desc = "A police officer's Hat. This hat emphasizes that you are THE LAW."

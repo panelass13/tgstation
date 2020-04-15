@@ -24,3 +24,37 @@
 	H.hair_color = "FFF"
 	H.facial_hair_color = "FFF"
 	H.update_hair()
+
+/datum/outfit/soulbreaker/slaver
+	name = "Soulbreaker Slaver"
+
+	uniform = /obj/item/clothing/under/color/lightpurple
+	suit = /obj/item/clothing/suit/armor/soulbreaker
+	shoes = /obj/item/clothing/shoes/combat
+	gloves = /obj/item/clothing/gloves/color/black
+	ears = /obj/item/radio/headset/syndicate
+	belt = /obj/item/gun/energy/e_gun
+	back = /obj/item/storage/backpack/satchel
+	r_pocket = /obj/item/pda/heads
+	l_hand = /obj/item/gun/energy/e_gun/stun
+	r_hand = /obj/item/clothing/head/helmet/slaver
+	belt = /obj/item/melee/baton/loaded
+	l_pocket = /obj/item/restraints/handcuffs/energy
+	id = /obj/item/card/id
+
+/datum/outfit/soulbreaker/slaver/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
+	if(visualsOnly)
+		return
+
+	var/obj/item/pda/heads/pda = H.r_store
+	pda.owner = H.real_name
+	pda.ownjob = "Slaver"
+	pda.update_label()
+
+	var/obj/item/card/id/W = H.wear_id
+	W.access = get_centcom_access("Slaver")
+	W.access += ACCESS_WEAPONS
+	W.assignment = "Slaver"
+	W.registered_name = H.real_name
+	W.update_label()
+	..()

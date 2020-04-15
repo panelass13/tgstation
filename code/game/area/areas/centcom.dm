@@ -118,6 +118,18 @@
 	has_gravity = STANDARD_GRAVITY
 	flags_1 = NONE
 
+//Breakers
+
+/area/breakership
+	name = "Soulbreaker Ship"
+	icon_state = "yellow"
+	requires_power = FALSE
+	has_gravity = STANDARD_GRAVITY
+	noteleport = FALSE
+	blob_allowed = FALSE
+	flags_1 = NONE
+	ambientsounds = HIGHSEC
+
 //Syndicates
 /area/syndicate_mothership
 	name = "Syndicate Mothership"
