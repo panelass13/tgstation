@@ -30,6 +30,8 @@
 	if(!istype(H))
 		return
 	H.equipOutfit(outfit)
+	var/datum/martial_art/cqc/style = new
+	style.teach(H)
 
 	if(CONFIG_GET(flag/enforce_human_authority))
 		H.set_species(/datum/species/human)
