@@ -49413,6 +49413,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
+"gsB" = (
+/obj/machinery/sleeper/port_a_medbay,
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "gwd" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -93068,7 +93072,7 @@ bln
 bmM
 boj
 bof
-bhh
+gsB
 bsx
 btV
 bvj
@@ -93325,7 +93329,7 @@ bfK
 bfK
 bfK
 bof
-bhh
+gsB
 bsx
 btV
 bvh
