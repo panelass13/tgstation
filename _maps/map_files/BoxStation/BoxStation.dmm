@@ -50118,10 +50118,6 @@
 /obj/structure/disposalpipe/junction/flip,
 /turf/open/floor/plasteel,
 /area/teleporter)
-"ixs" = (
-/mob/living/simple_animal/bot/hygienebot,
-/turf/open/floor/plasteel/freezer,
-/area/crew_quarters/toilet)
 "izT" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -88678,7 +88674,7 @@ aDM
 aGx
 aAh
 aAh
-ixs
+aBy
 aAh
 aMm
 aJq
