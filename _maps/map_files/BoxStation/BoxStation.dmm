@@ -22491,7 +22491,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bhw" = (
-/obj/machinery/computer/rdconsole/production,
+/obj/machinery/computer/rdconsole/core,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "bhx" = (
@@ -23025,6 +23025,7 @@
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
+/obj/machinery/computer/rdconsole/robotics,
 /turf/open/floor/plasteel/white,
 /area/science/robotics/lab)
 "biO" = (
@@ -24842,9 +24843,7 @@
 /turf/closed/wall/r_wall,
 /area/science/research)
 "bnn" = (
-/obj/machinery/computer/rdconsole/production{
-	dir = 4
-	},
+/obj/machinery/computer/rdconsole/core,
 /turf/open/floor/plasteel,
 /area/science/lab)
 "bno" = (
