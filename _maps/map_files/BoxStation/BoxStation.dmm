@@ -23954,10 +23954,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/central/secondary)
-"ble" = (
-/obj/structure/disposalpipe/segment,
-/turf/closed/wall/r_wall,
-/area/teleporter)
 "blf" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/syringes,
@@ -24712,13 +24708,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/medical/morgue)
-"bmS" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/computer/station_alert{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "bmT" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -25640,9 +25629,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bpo" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -25726,7 +25714,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bpD" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -26147,7 +26135,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bqM" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -26158,9 +26146,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bqO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -26728,9 +26715,8 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bsq" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -27193,7 +27179,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "btP" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_x = -5;
@@ -27659,9 +27645,8 @@
 	dir = 8
 	},
 /obj/structure/cable,
-/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bvc" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -28132,16 +28117,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"bwv" = (
-/obj/machinery/navbeacon{
-	codes_txt = "delivery;dir=4";
-	dir = 4;
-	freq = 1400;
-	location = "Medbay"
-	},
-/obj/effect/turf_decal/bot,
-/turf/closed/wall/r_wall,
-/area/medical/medbay/central)
 "bww" = (
 /obj/structure/chair,
 /obj/machinery/camera{
@@ -28587,8 +28562,8 @@
 	c_tag = "Central Hallway South-East";
 	dir = 8
 	},
-/turf/closed/wall/r_wall,
-/area/teleporter)
+/turf/open/floor/plasteel,
+/area/hallway/primary/central)
 "bxM" = (
 /obj/structure/chair/office,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -29602,9 +29577,8 @@
 /area/hallway/primary/central)
 "bAi" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
-/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bAj" = (
 /obj/machinery/navbeacon{
 	codes_txt = "patrol;next_patrol=HOP";
@@ -29617,7 +29591,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "bAl" = (
 /obj/structure/chair,
 /turf/open/floor/plasteel/dark,
@@ -47931,7 +47905,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "cPH" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
@@ -48439,10 +48413,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
-"dsr" = (
-/obj/machinery/door/firedoor,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "dtc" = (
 /obj/machinery/photocopier,
 /turf/open/floor/wood,
@@ -49988,13 +49958,6 @@
 "hTU" = (
 /turf/closed/wall/r_wall,
 /area/medical/chemistry)
-"hYz" = (
-/obj/machinery/door/airlock/command{
-	name = "Teleport Access";
-	req_access_txt = "17"
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "hYR" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden,
 /turf/open/floor/plating,
@@ -50116,7 +50079,7 @@
 /obj/structure/cable,
 /obj/structure/disposalpipe/junction/flip,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "izT" = (
 /obj/structure/closet/crate{
 	icon_state = "crateopen"
@@ -50290,12 +50253,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
-"iVg" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/teleporter)
 "iZd" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = 32
@@ -51396,11 +51353,8 @@
 /area/science/genetics)
 "lHd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/computer/crew{
-	dir = 8
-	},
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "lHy" = (
 /obj/machinery/door/airlock/security{
 	name = "Permanent Cell 2"
@@ -52323,7 +52277,7 @@
 	},
 /obj/structure/closet/emcloset,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "ofT" = (
 /obj/machinery/computer/bounty,
 /turf/open/floor/plasteel,
@@ -53166,11 +53120,6 @@
 	},
 /turf/closed/wall,
 /area/quartermaster/sorting)
-"pWG" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/cable,
-/turf/closed/wall/r_wall,
-/area/teleporter)
 "pWN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -53575,9 +53524,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
-"rxP" = (
-/turf/open/floor/plasteel,
-/area/teleporter)
 "ryM" = (
 /obj/structure/rack,
 /obj/effect/spawner/lootdrop/maintenance/three,
@@ -53695,11 +53641,6 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/science/misc_lab)
-"rPs" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/table,
-/turf/open/floor/plasteel,
-/area/teleporter)
 "rPX" = (
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall,
@@ -54337,7 +54278,7 @@
 "tsT" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/plasteel,
-/area/teleporter)
+/area/hallway/primary/central)
 "tti" = (
 /obj/structure/chair/stool{
 	pixel_y = 8
@@ -88959,16 +88900,16 @@ aYG
 aYG
 aYG
 aYG
-ble
-rPs
-rPs
+bmE
+bmE
+bmE
 bpn
 bqL
 bsp
 btO
 bva
 iwZ
-pWG
+bwu
 bwu
 bwu
 bBB
@@ -89216,16 +89157,16 @@ aJq
 aJq
 aJq
 aJq
-hYz
-rxP
-rxP
-rxP
-dsr
-rxP
+aJq
+aJq
+aJq
+aJq
+aLY
+aJq
 bAk
-rxP
-iVg
-hYz
+aJq
+aXf
+aJq
 aJq
 bAj
 aJq
@@ -89472,10 +89413,10 @@ beq
 aJq
 bgY
 aJq
-qdT
-bqH
+aJq
+aJq
 bAi
-bmS
+lHd
 lHd
 bpC
 bqN
@@ -89738,7 +89679,7 @@ wEm
 bqM
 brV
 bJE
-bwv
+bJE
 sDV
 bvj
 vkt
