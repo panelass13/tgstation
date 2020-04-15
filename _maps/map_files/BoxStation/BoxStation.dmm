@@ -7997,46 +7997,16 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall,
 /area/lawoffice)
-"aur" = (
-/obj/machinery/door/window/eastright{
-	base_state = "left";
-	dir = 8;
-	icon_state = "left";
-	name = "Fitness Ring"
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/fitness)
 "aus" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/crew_quarters/fitness)
-"aut" = (
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
 /area/crew_quarters/fitness)
 "auu" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/crew_quarters/fitness)
-"auv" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
 /area/crew_quarters/fitness)
 "auw" = (
 /obj/structure/bed,
@@ -8424,31 +8394,6 @@
 "avx" = (
 /obj/effect/spawner/structure/window,
 /turf/open/floor/plating,
-/area/crew_quarters/fitness)
-"avy" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/fitness)
-"avz" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/fitness)
-"avA" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
 /area/crew_quarters/fitness)
 "avB" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -9302,14 +9247,10 @@
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "axS" = (
-/obj/structure/window/reinforced,
-/obj/structure/window/reinforced{
-	dir = 8
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "axT" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
@@ -9318,23 +9259,10 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
-"axU" = (
-/obj/structure/window/reinforced,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/fitness)
 "axV" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/crew_quarters/dorms)
-"axW" = (
-/obj/machinery/door/window/eastright{
-	base_state = "left";
-	icon_state = "left";
-	name = "Fitness Ring"
-	},
-/obj/structure/window/reinforced,
-/turf/open/floor/plasteel/dark,
-/area/crew_quarters/fitness)
 "axX" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 1
@@ -9801,15 +9729,7 @@
 /obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
-"azm" = (
-/obj/structure/chair/stool{
-	pixel_y = 8
-	},
-/turf/open/floor/plasteel,
-/area/crew_quarters/fitness)
 "azn" = (
-/obj/structure/table,
-/obj/item/storage/firstaid/regular,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "azo" = (
@@ -18820,7 +18740,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aXG" = (
 /obj/machinery/light{
@@ -90628,9 +90548,9 @@ aoI
 apX
 arn
 asN
-aur
-avy
-avy
+azn
+azn
+azn
 axS
 azk
 aAk
@@ -90885,10 +90805,10 @@ ahn
 arj
 asr
 asN
-aut
-avz
+azn
+azn
 aXF
-axU
+azn
 azn
 aAn
 arj
@@ -91142,11 +91062,11 @@ aqp
 arj
 asq
 asN
-aut
-avz
-avz
-axU
-azm
+azn
+azn
+azn
+azn
+azn
 aAm
 arj
 aCr
@@ -91399,10 +91319,10 @@ aqq
 arj
 ast
 asN
-auv
-avA
-avA
-axW
+azo
+azn
+azn
+azn
 azo
 aAp
 aBC
