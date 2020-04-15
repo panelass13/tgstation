@@ -41,6 +41,7 @@
 	belt = /obj/item/melee/baton/loaded
 	l_pocket = /obj/item/restraints/handcuffs/energy
 	id = /obj/item/card/id
+	implants = list(/obj/item/implant/explosive)
 
 /datum/outfit/soulbreaker/slaver/post_equip(mob/living/carbon/human/H, visualsOnly = FALSE)
 	if(visualsOnly)
