@@ -6998,6 +6998,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/item/clothing/under/rank/civilian/mime/gachi,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aro" = (
