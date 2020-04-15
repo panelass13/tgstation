@@ -194,6 +194,7 @@
 
 	missiondesc += "<BR><B>Your Mission</B> : [ert_team.mission.explanation_text]"
 	to_chat(owner,missiondesc)
+	owner.current.playsound_local(get_turf(owner.current), 'sound/ambience/antag/ertgreet.ogg', 100, FALSE, pressure_affected = FALSE)
 
 
 /datum/antagonist/ert/families
