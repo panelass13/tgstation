@@ -6985,7 +6985,6 @@
 /turf/open/floor/plating,
 /area/crew_quarters/fitness)
 "arn" = (
-/obj/structure/closet/athletic_mixed,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
@@ -6995,7 +6994,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/item/clothing/under/rank/civilian/mime/gachi,
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aro" = (
@@ -7297,7 +7296,6 @@
 /obj/machinery/camera{
 	c_tag = "Fitness Room"
 	},
-/obj/structure/closet/masks,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -7307,27 +7305,26 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "asr" = (
-/obj/structure/closet/boxinggloves,
 /obj/machinery/light{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/obj/item/clothing/shoes/jackboots,
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "ass" = (
-/obj/structure/closet/lasertag/red,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
@@ -7338,10 +7335,10 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "ast" = (
-/obj/structure/closet/lasertag/blue,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
@@ -7351,6 +7348,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "asu" = (
@@ -7848,6 +7846,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "atW" = (
@@ -8389,6 +8388,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "avx" = (
@@ -9250,6 +9250,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/structure/chair/stool,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "axT" = (
@@ -9710,6 +9711,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "azk" = (
@@ -10079,6 +10081,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aAn" = (
@@ -10096,6 +10099,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aAo" = (
@@ -10832,6 +10836,7 @@
 	},
 /obj/item/reagent_containers/food/snacks/baguette,
 /obj/item/toy/dummy,
+/obj/item/clothing/under/rank/civilian/mime/gachi,
 /turf/open/floor/plasteel/white/side{
 	dir = 4
 	},
@@ -16380,6 +16385,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+/obj/structure/closet/lasertag/blue,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aRv" = (
@@ -50313,6 +50319,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/psychology)
+"jqR" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/closet/boxinggloves,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "jrH" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "rnd2";
@@ -50833,6 +50847,14 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/closed/wall/r_wall,
 /area/security/prison)
+"kHt" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/closet/lasertag/red,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "kJB" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
@@ -53472,6 +53494,13 @@
 /obj/effect/spawner/lootdrop/maintenance/three,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"rzA" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel,
+/area/crew_quarters/fitness)
 "rAt" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
@@ -53615,6 +53644,10 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"rSU" = (
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel,
+/area/crew_quarters/fitness)
 "rSW" = (
 /obj/machinery/camera{
 	c_tag = "Prison Cafeteria";
@@ -89883,7 +89916,7 @@ vTI
 tOJ
 aPZ
 aRu
-aQc
+kHt
 aUf
 aQc
 aXi
@@ -90635,7 +90668,7 @@ aoI
 apX
 arn
 asN
-azn
+rSU
 azn
 azn
 axS
@@ -90892,10 +90925,10 @@ ahn
 arj
 asr
 asN
-azn
+rSU
 azn
 aXF
-azn
+rSU
 azn
 aAn
 arj
@@ -91149,10 +91182,10 @@ aqp
 arj
 asq
 asN
+rSU
 azn
 azn
-azn
-azn
+rSU
 azn
 aAm
 arj
@@ -91406,10 +91439,10 @@ aqq
 arj
 ast
 asN
-azo
+rzA
 azn
 azn
-azn
+rSU
 azo
 aAp
 aBC
@@ -91419,7 +91452,7 @@ aCt
 aGz
 aIb
 aJC
-aQc
+jqR
 aMv
 aNH
 aQc
