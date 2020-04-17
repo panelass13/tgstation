@@ -18,6 +18,7 @@
 	s.set_up(5, 1, src)
 	s.start()
 
+
 /obj/structure/closet/secure_closet/attackby(obj/item/W, mob/user, params)
 	var/mob/living/carbon/human/M = user
 	if(istype(W, /obj/item/multitool))
@@ -27,7 +28,6 @@
 		shock(M, 70) //big buff here
 		if(do_after(user, hacktime, target = src))
 			playsound(loc, hacksound, 15, TRUE, -3)
-			shock(M, 40) //buff it a bit /shrug
 			if(locked == TRUE)
 				locked = FALSE
 				src.update_icon()
