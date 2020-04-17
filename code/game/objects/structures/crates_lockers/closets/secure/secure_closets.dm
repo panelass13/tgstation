@@ -18,7 +18,6 @@
 	s.set_up(5, 1, src)
 	s.start()
 
-
 /obj/structure/closet/secure_closet/attackby(obj/item/W, mob/user, params)
 	var/mob/living/carbon/human/M = user
 	if(istype(W, /obj/item/multitool))
