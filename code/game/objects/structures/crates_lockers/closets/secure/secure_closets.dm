@@ -24,10 +24,10 @@
 		playsound(loc, 'sound/items/change_drill.ogg', 15, TRUE, -3)
 		to_chat(user, "<span class='notice'>You start hacking [src]...</span>")
 		add_fingerprint(user)
-		shock(M, 40)
+		shock(M, 70) //big buff here
 		if(do_after(user, hacktime, target = src))
 			playsound(loc, hacksound, 15, TRUE, -3)
-			shock(M, 20)
+			shock(M, 40) //buff it a bit /shrug
 			if(locked == TRUE)
 				locked = FALSE
 				src.update_icon()
