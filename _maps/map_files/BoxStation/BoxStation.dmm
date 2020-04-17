@@ -6994,6 +6994,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aro" = (
@@ -7304,6 +7305,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "asr" = (
@@ -7319,6 +7321,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "ass" = (
@@ -7332,6 +7335,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "ast" = (
@@ -7344,6 +7348,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "asu" = (
@@ -7841,6 +7846,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "atW" = (
@@ -8382,6 +8388,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "avx" = (
@@ -9243,6 +9250,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/structure/chair/stool,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "axT" = (
@@ -9703,6 +9711,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "azk" = (
@@ -10072,6 +10081,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aAn" = (
@@ -10089,6 +10099,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/structure/closet/secure_closet/personal,
 /turf/open/floor/plasteel,
 /area/crew_quarters/fitness)
 "aAo" = (
@@ -38043,6 +38054,14 @@
 	},
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
+"bXF" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/closet/boxinggloves,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "bXG" = (
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
@@ -48912,14 +48931,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/prison)
-"fjD" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/structure/closet/boxinggloves,
-/turf/open/floor/plasteel,
-/area/crew_quarters/bar)
 "flc" = (
 /obj/item/assembly/prox_sensor{
 	pixel_x = -4;
@@ -50154,6 +50165,13 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"iVR" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel,
+/area/crew_quarters/fitness)
 "iZd" = (
 /obj/structure/sign/warning/securearea{
 	pixel_x = 32
@@ -50189,6 +50207,10 @@
 /obj/effect/spawner/lootdrop/maintenance/four,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
+"jeu" = (
+/obj/structure/chair/stool,
+/turf/open/floor/plasteel,
+/area/crew_quarters/fitness)
 "jgp" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
@@ -53165,14 +53187,6 @@
 /obj/item/soap/nanotrasen,
 /turf/open/floor/plasteel/freezer,
 /area/security/prison/safe)
-"qkx" = (
-/obj/effect/turf_decal/tile/bar,
-/obj/effect/turf_decal/tile/bar{
-	dir = 1
-	},
-/obj/structure/closet/lasertag/red,
-/turf/open/floor/plasteel,
-/area/crew_quarters/bar)
 "qnY" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 10
@@ -53237,6 +53251,14 @@
 	},
 /turf/closed/wall,
 /area/medical/psychology)
+"qum" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/closet/lasertag/red,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "quT" = (
 /obj/structure/lattice,
 /obj/structure/grille/broken,
@@ -89894,7 +89916,7 @@ vTI
 tOJ
 aPZ
 aRu
-qkx
+qum
 aUf
 aQc
 aXi
@@ -90646,7 +90668,7 @@ aoI
 apX
 arn
 asN
-azn
+jeu
 azn
 azn
 axS
@@ -90903,10 +90925,10 @@ ahn
 arj
 asr
 asN
-azn
+jeu
 azn
 aXF
-azn
+jeu
 azn
 aAn
 arj
@@ -91160,10 +91182,10 @@ aqp
 arj
 asq
 asN
+jeu
 azn
 azn
-azn
-azn
+jeu
 azn
 aAm
 arj
@@ -91417,10 +91439,10 @@ aqq
 arj
 ast
 asN
-azo
+iVR
 azn
 azn
-azn
+jeu
 azo
 aAp
 aBC
@@ -91430,7 +91452,7 @@ aCt
 aGz
 aIb
 aJC
-fjD
+bXF
 aMv
 aNH
 aQc
