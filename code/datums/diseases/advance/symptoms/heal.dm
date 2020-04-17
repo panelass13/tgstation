@@ -32,43 +32,7 @@
 	level = 0
 
 /datum/symptom/heal/plasma
-	stealth = 0
-	resistance = 3
-	stage_speed = -2
-	transmittable = -2
-	level = 6
-
-/datum/symptom/heal/plasma/Heal(mob/living/carbon/M, datum/disease/advance/A, actual_power)
-	var/heal_amt = 4 * actual_power
-
-	if(M.fire_stacks > 0)	//New hippie add, otherwise you die from plasma fires even if you're doing the suck on the plasma
-		actual_power = actual_power + (M.fire_stacks*0.75)
-	else
-		actual_power = initial(actual_power)
-
-	if(prob(5))
-		to_chat(M, "<span class='notice'>You feel yourself absorbing plasma inside and around you...</span>")
-
-	if(M.bodytemperature > BODYTEMP_NORMAL)
-		M.adjust_bodytemperature(-20 * temp_rate * TEMPERATURE_DAMAGE_COEFFICIENT,BODYTEMP_NORMAL)
-		if(prob(5))
-			to_chat(M, "<span class='notice'>You feel less hot.</span>")
-	else if(M.bodytemperature < (BODYTEMP_NORMAL + 1))
-		M.adjust_bodytemperature(20 * temp_rate * TEMPERATURE_DAMAGE_COEFFICIENT,0,BODYTEMP_NORMAL)
-		if(prob(5))
-			to_chat(M, "<span class='notice'>You feel warmer.</span>")
-
-	M.adjustToxLoss(-heal_amt)
-
-	var/list/parts = M.get_damaged_bodyparts(1,1)
-	if(!parts.len)
-		return
-	if(prob(5))
-		to_chat(M, "<span class='notice'>The pain from your wounds fades rapidly.</span>")
-	for(var/obj/item/bodypart/L in parts)
-		if(L.heal_damage(heal_amt/parts.len, heal_amt/parts.len))
-			M.update_damage_overlays()
-	return TRUE
+	level = 0
 
 /datum/symptom/heal/toxin
 	name = "Toxic Filter"
