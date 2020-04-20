@@ -496,6 +496,7 @@ GLOBAL_LIST_INIT(devil_suffix, list(" the Red", " the Soulless", " the Master", 
 	to_chat(owner.current, GLOB.lawlorify[LAW][obligation])
 	to_chat(owner.current, GLOB.lawlorify[LAW][banish])
 	to_chat(owner.current, "<span class='warning'>Remember, the crew can research your weaknesses if they find out your devil name.</span><br>")
+	owner.current.playsound_local(get_turf(owner.current), 'sound/ambience/antag/devil.ogg', 100, FALSE, pressure_affected = FALSE)
 	.=..()
 
 /datum/antagonist/devil/on_gain()
