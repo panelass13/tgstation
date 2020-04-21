@@ -17091,6 +17091,7 @@
 	name = "Escape Airlock";
 	safety_mode = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
 "aTr" = (
@@ -26382,6 +26383,7 @@
 	name = "Supply Dock Airlock";
 	req_access_txt = "31"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "brK" = (
@@ -32978,6 +32980,7 @@
 	shuttledocked = 1
 	},
 /obj/structure/cable,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/quartermaster/miningdock)
 "bJc" = (
@@ -36366,6 +36369,9 @@
 	pixel_y = 2
 	},
 /obj/item/book/manual/wiki/atmospherics,
+/obj/item/toy/plush/moth{
+	name = "safety moth plushie"
+	},
 /turf/open/floor/plasteel,
 /area/engine/atmos)
 "bSH" = (
@@ -44167,6 +44173,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/toy/talking/AI,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/turret_protected/aisat_interior)
 "cuh" = (
@@ -45365,6 +45372,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "cyd" = (
@@ -45397,6 +45405,7 @@
 	req_access_txt = "2";
 	safety_mode = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
 "cyl" = (
@@ -45429,6 +45438,7 @@
 	name = "Cargo Escape Airlock";
 	safety_mode = 1
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit)
 "cyt" = (
@@ -45438,6 +45448,7 @@
 /obj/machinery/door/airlock/external{
 	name = "Port Docking Bay 4"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "cyu" = (
@@ -45447,6 +45458,7 @@
 /obj/machinery/door/airlock/external{
 	name = "Port Docking Bay 3"
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "cyC" = (
@@ -49776,6 +49788,7 @@
 	safety_mode = 1
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "hGP" = (
@@ -50151,6 +50164,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
+"iPL" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 1";
+	safety_mode = 1
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/hallway/secondary/entry)
 "iQF" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -55111,6 +55135,15 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
+"vBG" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/external{
+	name = "Port Docking Bay 1";
+	safety_mode = 1
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/hallway/secondary/entry)
 "vBP" = (
 /obj/machinery/vending/sustenance,
 /obj/effect/decal/cleanable/dirt,
@@ -55923,6 +55956,7 @@
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 4
 	},
+/obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/hallway/secondary/entry)
 "xAT" = (
@@ -65778,7 +65812,7 @@ awZ
 ayl
 azy
 auP
-cIh
+iPL
 aaa
 aaa
 aaa
@@ -67577,7 +67611,7 @@ axh
 aIK
 azy
 auP
-cIh
+iPL
 aaa
 aaa
 aaa
@@ -67585,7 +67619,7 @@ aaa
 aaa
 aaa
 aaa
-azy
+vBG
 auP
 jly
 ayl
