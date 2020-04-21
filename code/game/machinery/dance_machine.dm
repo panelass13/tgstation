@@ -9,8 +9,7 @@
 	var/active = FALSE
 	var/list/rangers = list()
 	var/stop = 0
-	var/list/songs = list('config/jukebox_music/sounds/Golosowanie+660+5.ogg',
-	'config/jukebox_music/sounds/Dare+1218+5.ogg')
+	var/list/songs = list()
 	var/datum/track/selection = null
 
 /obj/machinery/jukebox/disco
