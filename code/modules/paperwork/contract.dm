@@ -55,7 +55,8 @@
 	resistance_flags = LAVA_PROOF | FIRE_PROOF | ACID_PROOF
 	var/datum/mind/owner
 	var/datum/antagonist/devil/devil_datum
-	icon_state = "paper_onfire"
+	icon = 'icons/obj/bureaucracy.dmi'
+	icon_state = "devilcontract"
 
 /obj/item/paper/contract/infernal/power
 	name = "paper- contract for infernal power"
@@ -211,8 +212,18 @@
 		return 0
 	else
 		to_chat(user, "<span class='notice'>You quickly scrawl your name on the contract.</span>")
+		playsound(user, 'sound/ambience/antag/sigil.ogg', 60, FALSE, pressure_affected = FALSE)
+		user.adjust_blurriness(5)
+		user.emote("scream")
+		user.Sleeping(1)
+		to_chat(user, "<span class='notice'>You feel your soul leaving your body, you are empty.</span>")
 		if(fulfillContract(target.current, blood)<=0)
 			to_chat(user, "<span class='notice'>But it seemed to have no effect, perhaps even Hell itself cannot grant this boon?</span>")
+			playsound(user, 'sound/ambience/antag/sigil.ogg', 60, FALSE, pressure_affected = FALSE)
+			user.adjust_blurriness(5)
+			user.emote("scream")
+			user.Sleeping(1)
+			to_chat(user, "<span class='notice'>You feel your soul leaving your body, you are empty.</span>")
 		return 1
 
 
