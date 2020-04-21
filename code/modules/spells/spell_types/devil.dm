@@ -9,7 +9,7 @@
 
 	school = "conjuration"
 	charge_max = 150
-	cooldown_min = 10
+	cooldown_min = 5
 	action_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	action_icon_state = "pitchfork"
 	action_background_icon_state = "bg_demon"
@@ -34,14 +34,14 @@
 	name = "Summon infernal contract"
 	desc = "Skip making a contract by hand, just do it by magic."
 	invocation_type = "whisper"
-	invocation = "Just sign on the dotted line."
+	invocation = "Just grab a pen and sign on the dotted line."
 	include_user = FALSE
 	range = 5
 	clothes_req = FALSE
 
 	school = "conjuration"
 	charge_max = 150
-	cooldown_min = 10
+	cooldown_min = 5
 	action_icon_state = "spell_default"
 	action_background_icon_state = "bg_demon"
 
