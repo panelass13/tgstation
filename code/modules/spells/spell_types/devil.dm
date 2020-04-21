@@ -29,6 +29,7 @@
 	name = "Summon golden violin"
 	action_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	action_background_icon_state = "bg_demon"
+	sound = 'sound/magic/summon_devil.ogg'
 
 /obj/effect/proc_holder/spell/targeted/summon_contract
 	name = "Summon infernal contract"
@@ -38,7 +39,7 @@
 	include_user = FALSE
 	range = 5
 	clothes_req = FALSE
-
+	sound = 'sound/magic/summon_devil.ogg'
 	school = "conjuration"
 	charge_max = 150
 	cooldown_min = 5
