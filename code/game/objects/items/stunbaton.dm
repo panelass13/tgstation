@@ -87,7 +87,7 @@
 	..()
 	//Only mob/living types have stun handling
 	if(turned_on && prob(throw_stun_chance) && iscarbon(hit_atom))
-		baton_effect(hit_atom)
+		baton_stun(hit_atom)
 
 /obj/item/melee/baton/loaded //this one starts with a cell pre-installed.
 	preload_cell_type = /obj/item/stock_parts/cell/high
@@ -192,7 +192,7 @@
 	if(user.a_intent != INTENT_HARM)
 		if(turned_on)
 			if(attack_cooldown_check <= world.time)
-				if(baton_effect(M, user))
+				if(baton_stun(M, user))
 					user.do_attack_animation(M)
 					return
 			else
@@ -203,7 +203,7 @@
 	else
 		if(turned_on)
 			if(attack_cooldown_check <= world.time)
-				baton_effect(M, user)
+				baton_stun(M, user)
 		..()
 
 
@@ -296,7 +296,7 @@
 	. = ..()
 	sparkler = new (src)
 
-/obj/item/melee/baton/cattleprod/baton_effect()
+/obj/item/melee/baton/cattleprod/baton_stun()
 	if(sparkler.activate())
 		..()
 
@@ -330,7 +330,7 @@
 	if(turned_on)
 		var/caught = hit_atom.hitby(src, FALSE, FALSE, throwingdatum=throwingdatum)
 		if(ishuman(hit_atom) && !caught && prob(throw_stun_chance))//if they are a carbon and they didn't catch it
-			baton_effect(hit_atom)
+			baton_stun(hit_atom)
 		if(thrownby && !caught)
 			sleep(1)
 			if(!QDELETED(src))
