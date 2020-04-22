@@ -286,7 +286,7 @@
 "J" = (
 /obj/structure/rack,
 /obj/item/storage/toolbox/drone,
-/obj/item/melee/baton/cattleprod/hippie_cattleprod,
+/obj/item/melee/baton/cattleprod,
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/gasthelizard)
 "K" = (

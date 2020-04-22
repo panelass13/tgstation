@@ -245,7 +245,7 @@
 	pixel_x = -25
 	},
 /obj/structure/rack,
-/obj/item/melee/baton/cattleprod/hippie_cattleprod,
+/obj/item/melee/baton/cattleprod,
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark/side,

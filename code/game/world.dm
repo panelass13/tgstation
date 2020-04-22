@@ -54,7 +54,7 @@ GLOBAL_VAR(restart_counter)
 	if (TgsAvailable())
 		world.log = file("[GLOB.log_directory]/dd.log") //not all runtimes trigger world/Error, so this is the only way to ensure we can see all of them.
 #endif
-	beat_initialize() // beat -- Inits our own stuff, has to be after hippie_initialize().
+
 	LoadVerbs(/datum/verbs/menu)
 	if(CONFIG_GET(flag/usewhitelist))
 		load_whitelist()
