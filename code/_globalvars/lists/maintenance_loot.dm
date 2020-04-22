@@ -164,7 +164,7 @@ GLOBAL_LIST_INIT(uncommon_loot, list(//uncommon: useful items
 		/obj/item/spear = 1,
 		/obj/item/shield/riot/buckler = 1,
 		/obj/item/grenade/iedcasing/spawned = 1,
-		/obj/item/melee/baton/cattleprod/hippie_cattleprod = 1,
+		/obj/item/melee/baton/cattleprod = 1,
 		/obj/item/throwing_star = 1,
 		) = 8,
 
@@ -202,8 +202,8 @@ GLOBAL_LIST_INIT(uncommon_loot, list(//uncommon: useful items
 			/obj/item/stack/medical/gauze = 1,
 			) = 1,
 		list(//medical chems
-			/obj/item/reagent_containers/glass/bottle/charcoal = 1,
-			/obj/item/reagent_containers/syringe/perfluorodecalin = 1,
+			/obj/item/reagent_containers/glass/bottle/multiver = 1,
+			/obj/item/reagent_containers/syringe/convermol = 1,
 			) = 1,
 		list(//drinks
 			/obj/item/reagent_containers/food/drinks/bottle/vodka = 1,
