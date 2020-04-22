@@ -6,13 +6,13 @@
 	range = -1
 	clothes_req = FALSE
 	item_type = /obj/item/pitchfork/demonic
-
 	school = "conjuration"
 	charge_max = 150
-	cooldown_min = 10
+	cooldown_min = 5
 	action_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	action_icon_state = "pitchfork"
 	action_background_icon_state = "bg_demon"
+	sound = 'sound/magic/summon_devil.ogg'
 
 /obj/effect/proc_holder/spell/targeted/conjure_item/summon_pitchfork/greater
 	item_type = /obj/item/pitchfork/demonic/greater
@@ -29,19 +29,20 @@
 	name = "Summon golden violin"
 	action_icon = 'icons/mob/actions/actions_minor_antag.dmi'
 	action_background_icon_state = "bg_demon"
+	sound = 'sound/magic/summon_devil.ogg'
 
 /obj/effect/proc_holder/spell/targeted/summon_contract
 	name = "Summon infernal contract"
 	desc = "Skip making a contract by hand, just do it by magic."
 	invocation_type = "whisper"
-	invocation = "Just sign on the dotted line."
+	invocation = "Just grab a pen and sign on the dotted line."
 	include_user = FALSE
 	range = 5
 	clothes_req = FALSE
-
+	sound = 'sound/magic/summon_devil.ogg'
 	school = "conjuration"
 	charge_max = 150
-	cooldown_min = 10
+	cooldown_min = 5
 	action_icon_state = "spell_default"
 	action_background_icon_state = "bg_demon"
 

@@ -14,7 +14,6 @@
 		"Stage Speed 6" = "Doubles healing speed.",
 		"Stealth 4" = "Healing will no longer be visible to onlookers.",
 	)
-
 /datum/symptom/heal/Start(datum/disease/advance/A)
 	if(!..())
 		return
@@ -53,7 +52,7 @@
 	resistance = -2
 	stage_speed = 0
 	transmittable = 1
-	level = 6
+	level = 8
 	passive_message = "<span class='notice'>You miss the feeling of starlight on your skin.</span>"
 	var/nearspace_penalty = 0.3
 	threshold_descs = list(
@@ -106,7 +105,7 @@
 	resistance = -2
 	stage_speed = 2
 	transmittable = -2
-	level = 7
+	level = 8
 	var/food_conversion = FALSE
 	desc = "The virus rapidly breaks down any foreign chemicals in the bloodstream."
 	threshold_descs = list(
@@ -177,17 +176,17 @@
 	resistance = -1
 	stage_speed = -2
 	transmittable = -1
-	level = 6
+	level = 8
 	passive_message = "<span class='notice'>You feel tingling on your skin as light passes over it.</span>"
 	threshold_descs = list(
-		"Stage Speed 8" = "Doubles healing speed.",
+		"Stage Speed 8" = "Increases healing speed.",
 	)
 
 /datum/symptom/heal/darkness/Start(datum/disease/advance/A)
 	if(!..())
 		return
 	if(A.properties["stage_rate"] >= 8)
-		power = 2
+		power = 3
 
 /datum/symptom/heal/darkness/CanHeal(datum/disease/advance/A)
 	var/mob/living/M = A.affected_mob
@@ -241,7 +240,7 @@
 	if(!..())
 		return
 	if(A.properties["stage_rate"] >= 7)
-		power = 1.5
+		power = 2
 	if(A.properties["resistance"] >= 4)
 		stabilize = TRUE
 	if(A.properties["stealth"] >= 2)
@@ -268,7 +267,7 @@
 	if(HAS_TRAIT(M, TRAIT_DEATHCOMA))
 		return power
 	else if(M.IsUnconscious() || M.stat == UNCONSCIOUS)
-		return power * 0.9
+		return power * 1
 	else if(M.stat == SOFT_CRIT)
 		return power * 0.5
 	else if(M.IsSleeping())
@@ -321,7 +320,7 @@
 	resistance = -1
 	stage_speed = 0
 	transmittable = 1
-	level = 6
+	level = 8
 	passive_message = "<span class='notice'>Your skin feels oddly dry...</span>"
 	var/absorption_coeff = 1
 	threshold_descs = list(
@@ -333,7 +332,7 @@
 	if(!..())
 		return
 	if(A.properties["stage_rate"] >= 7)
-		power = 2
+		power = 3
 	if(A.properties["resistance"] >= 5)
 		absorption_coeff = 0.25
 
@@ -391,7 +390,7 @@
 	if(!..())
 		return
 	if(A.properties["stage_rate"] >= 7)
-		power = 2
+		power = 3
 	if(A.properties["transmittable"] >= 6)
 		temp_rate = 4
 
@@ -446,21 +445,21 @@
 	resistance = -2
 	stage_speed = 2
 	transmittable = -3
-	level = 6
+	level = 8
 	symptom_delay_min = 1
 	symptom_delay_max = 1
 	passive_message = "<span class='notice'>Your skin glows faintly for a moment.</span>"
 	var/cellular_damage = FALSE
 	threshold_descs = list(
 		"Transmission 6" = "Additionally heals cellular damage.",
-		"Resistance 7" = "Increases healing speed.",
+		"Stage Speed 7" = "Increases healing speed.",
 	)
 
 /datum/symptom/heal/radiation/Start(datum/disease/advance/A)
 	if(!..())
 		return
-	if(A.properties["resistance"] >= 7)
-		power = 2
+	if(A.properties["stage_rate"] >= 7)
+		power = 3
 	if(A.properties["transmittable"] >= 6)
 		cellular_damage = TRUE
 
@@ -500,3 +499,155 @@
 		if(L.heal_damage(heal_amt/parts.len, heal_amt/parts.len, null, BODYPART_ORGANIC))
 			M.update_damage_overlays()
 	return 1
+
+
+/datum/symptom/heal/toxin
+	name = "Toxic Filter"
+	desc = "The virus synthesizes regenerative chemicals in the bloodstream, repairing damage caused by toxins."
+	stealth = 1
+	resistance = -2
+	stage_speed = -2
+	transmittable = -2
+	level = 4
+	threshold_descs = list("Stage Speed 6" = "Doubles healing speed.")
+
+/datum/symptom/heal/toxin/Start(datum/disease/advance/A)
+	if(A.properties["stage_rate"] >= 6) //stronger healing
+		power = 2
+
+	 //100% chance to activate for slow but consistent healing
+/datum/symptom/heal/toxin/Heal(mob/living/M, datum/disease/advance/A)
+	var/heal_amt = 1 * power
+	M.adjustToxLoss(-heal_amt)
+	return TRUE
+
+/datum/symptom/heal/supertoxin
+	name = "Apoptoxin filter"
+	desc = "The virus stimulates production of special stem cells in the bloodstream, causing rapid reparation of any damage caused by toxins."
+	stealth = 0
+	resistance = -2
+	stage_speed = -2
+	transmittable = -2
+	level = 6
+
+/datum/symptom/heal/supertoxin/Heal(mob/living/M, datum/disease/advance/A)
+	var/heal_amt = 4
+	M.adjustToxLoss(-heal_amt)
+	return TRUE
+
+/datum/symptom/heal/brute
+	name = "Regeneration"
+	desc = "The virus stimulates the regenerative process in the host, causing faster wound healing."
+	stealth = 1
+	resistance = -2
+	stage_speed = -2
+	transmittable = -2
+	level = 4
+	threshold_descs = list("Stage Speed 6:" = "Doubles healing speed")
+
+/datum/symptom/heal/brute/Start(datum/disease/advance/A)
+	if(A.properties["stage_rate"] >= 6) //stronger healing
+		power = 1.5
+
+/datum/symptom/heal/brute/Heal(mob/living/carbon/M, datum/disease/advance/A)
+	var/heal_amt = 1 * power
+	var/list/parts = M.get_damaged_bodyparts(1,1) //1,1 because it needs inputs.
+
+	if(!parts.len)
+		return
+
+	for(var/obj/item/bodypart/L in parts)
+		if(L.heal_damage(heal_amt/parts.len, 0))
+			M.update_damage_overlays()
+
+	return TRUE
+
+/datum/symptom/heal/superbrute
+	name = "Flesh Mending"
+	desc = "The virus rapidly mutates into body cells, effectively allowing it to quickly fix the host's wounds."
+	stealth = 0
+	resistance = 0
+	stage_speed = -2
+	transmittable = -2
+	level = 6
+	threshold_descs = list("Stage Speed 6" = "Doubles healing speed")
+
+/datum/symptom/heal/superbrute/Start(datum/disease/advance/A)
+	if(A.properties["stage_rate"] >= 6) //stronger healing
+		power = 2
+
+/datum/symptom/heal/superbrute/Heal(mob/living/carbon/M, datum/disease/advance/A)
+	var/heal_amt = 4 * power
+
+	var/list/parts = M.get_damaged_bodyparts(1,1) //1,1 because it needs inputs.
+
+	if(M.getCloneLoss() > 0)
+		M.adjustCloneLoss(-1)
+		M.take_bodypart_damage(0, BURN) //Deals BURN damage, which is not cured by this symptom
+
+	if(!parts.len)
+		return
+
+	for(var/obj/item/bodypart/L in parts)
+		if(L.heal_damage(heal_amt/parts.len, 0))
+			M.update_damage_overlays()
+
+	return TRUE
+
+/datum/symptom/heal/burn
+	name = "Tissue Regrowth"
+	desc = "The virus recycles dead and burnt tissues, speeding up the healing of damage caused by burns."
+	stealth = 1
+	resistance = -2
+	stage_speed = -2
+	transmittable = -2
+	level = 6
+	threshold_descs = list("Stage Speed 6" = "Doubles healing speed")
+
+/datum/symptom/heal/burn/Start(datum/disease/advance/A)
+	if(A.properties["stage_rate"] >= 6) //stronger healing
+		power = 2
+
+/datum/symptom/heal/burn/Heal(mob/living/carbon/M, datum/disease/advance/A)
+	var/heal_amt = 1 * power
+
+	var/list/parts = M.get_damaged_bodyparts(1,1) //1,1 because it needs inputs.
+
+	if(!parts.len)
+		return
+
+	for(var/obj/item/bodypart/L in parts)
+		if(L.heal_damage(0, heal_amt/parts.len))
+			M.update_damage_overlays()
+
+	return TRUE
+
+/datum/symptom/heal/heatresistance
+	name = "Heat Resistance"
+	desc = "The virus quickly balances body heat, while also replacing tissues damaged by external sources."
+	stealth = 0
+	resistance = 0
+	stage_speed = -2
+	transmittable = -2
+	level = 4
+	var/temp_rate = 4
+
+/datum/symptom/heal/heatresistance/Heal(mob/living/carbon/M, datum/disease/advance/A)
+	var/heal_amt = 4 * power
+
+	var/list/parts = M.get_damaged_bodyparts(1,1) //1,1 because it needs inputs.
+
+	if(M.fire_stacks > 0)
+		power = power + (M.fire_stacks*0.75)
+	else
+		power = initial(power)
+
+	if(M.bodytemperature > BODYTEMP_NORMAL)	//Shamelessly stolen from plasma fixation, whew lad
+		M.adjust_bodytemperature(-20 * temp_rate * TEMPERATURE_DAMAGE_COEFFICIENT,BODYTEMP_NORMAL)
+	else if(M.bodytemperature < (BODYTEMP_NORMAL + 1))
+		M.adjust_bodytemperature(20 * temp_rate * TEMPERATURE_DAMAGE_COEFFICIENT,0,BODYTEMP_NORMAL)
+	for(var/obj/item/bodypart/L in parts)
+		if(L.heal_damage(0, heal_amt/parts.len))
+			M.update_damage_overlays()
+
+	return TRUE

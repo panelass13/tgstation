@@ -123,6 +123,19 @@
 	strip_delay = 80
 	equip_delay_other = 60
 
+/obj/item/clothing/suit/armor/soulbreaker
+	name = "slaver suit"
+	desc = "A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Helps the wearer resist shoving in close quarters."
+	icon_state = "soulbreaker"
+	item_state = "soulbreaker"
+	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
+	armor = list("melee" = 50, "bullet" = 30, "laser" = 10, "energy" = 10, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 80, "acid" = 80)
+	clothing_flags = BLOCKS_SHOVE_KNOCKDOWN
+	strip_delay = 80
+	equip_delay_other = 60
+
 /obj/item/clothing/suit/armor/bone
 	name = "bone armor"
 	desc = "A tribal armor plate, crafted from animal bone."

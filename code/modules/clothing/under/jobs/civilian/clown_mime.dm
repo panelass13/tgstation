@@ -5,6 +5,13 @@
 	icon_state = "mime"
 	item_state = "mime"
 
+/obj/item/clothing/under/rank/civilian/mime/gachi
+	name = "gachi mime's outfit"
+	desc = "For your deep, dark fantasies."
+	icon_state = "gachi"
+	item_state = "gachi"
+	can_adjust = FALSE
+
 /obj/item/clothing/under/rank/civilian/mime/skirt
 	name = "mime's skirt"
 	desc = "It's not very colourful."

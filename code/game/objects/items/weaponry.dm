@@ -477,8 +477,8 @@ for further reading, please see: https://github.com/tgstation/tgstation/pull/301
 		part.drop_limb()
 
 /obj/item/statuebust
-	name = "bust"
-	desc = "A priceless ancient marble bust, the kind that belongs in a museum." //or you can hit people with it
+	name = "panela tan bust"
+	desc = "A priceless ancient bust from a brazilian tribe, Smells like rice and weed."
 	icon = 'icons/obj/statue.dmi'
 	icon_state = "bust"
 	force = 15
