@@ -32,10 +32,9 @@
 		return
 	var/static/items_inside = list(
 		/obj/item/stack/medical/gauze = 1,
-		/obj/item/stack/medical/bruise_pack = 2,
-		/obj/item/stack/medical/ointment = 2,
-		/obj/item/reagent_containers/hypospray/medipen = 1,
-		/obj/item/healthanalyzer = 1)
+		/obj/item/stack/medical/suture = 2,
+		/obj/item/stack/medical/mesh = 2,
+		/obj/item/reagent_containers/hypospray/medipen = 1)
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/firstaid/medical
@@ -58,7 +57,7 @@
 		/obj/item/reagent_containers/glass/bottle,
 		/obj/item/reagent_containers/pill,
 		/obj/item/reagent_containers/syringe,
-		/obj/item/reagent_containers/medspray,
+		/obj/item/reagent_containers/medigel,
 		/obj/item/lighter,
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/storage/pill_bottle,
@@ -104,8 +103,8 @@
 		return
 	var/static/items_inside = list(
 		/obj/item/stack/medical/gauze = 1,
-		/obj/item/stack/medical/bruise_pack = 2,
-		/obj/item/stack/medical/ointment = 2,
+		/obj/item/stack/medical/suture = 2,
+		/obj/item/stack/medical/mesh = 2,
 		/obj/item/reagent_containers/hypospray/medipen = 1,
 		/obj/item/surgical_drapes = 1,
 		/obj/item/scalpel = 1,
@@ -150,10 +149,10 @@
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/patch/silver_sulf = 3,
-		/obj/item/reagent_containers/pill/oxandrolone = 2,
-		/obj/item/reagent_containers/hypospray/medipen = 1,
-		/obj/item/healthanalyzer = 1)
+		/obj/item/reagent_containers/pill/patch/aiuri = 3,
+		/obj/item/reagent_containers/spray/hercuri = 1,
+		/obj/item/reagent_containers/hypospray/medipen/oxandrolone = 1,
+		/obj/item/reagent_containers/hypospray/medipen = 1)
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/firstaid/toxin
@@ -175,9 +174,10 @@
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/syringe/charcoal = 4,
-		/obj/item/storage/pill_bottle/charcoal = 2,
-		/obj/item/healthanalyzer = 1)
+	    /obj/item/storage/pill_bottle/multiver/less = 1,
+		/obj/item/reagent_containers/syringe/syriniver = 3,
+		/obj/item/storage/pill_bottle/potassiodide = 1,
+		/obj/item/reagent_containers/hypospray/medipen/penacid = 1)
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/firstaid/o2
@@ -199,9 +199,10 @@
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/syringe/perfluorodecalin = 5,
+		/obj/item/reagent_containers/syringe/convermol = 3,
+		/obj/item/reagent_containers/hypospray/medipen/salbutamol = 1,
 		/obj/item/reagent_containers/hypospray/medipen = 1,
-		/obj/item/healthanalyzer = 1)
+		/obj/item/storage/pill_bottle/iron = 1)
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/firstaid/brute
@@ -223,9 +224,10 @@
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/patch/styptic = 4,
-		/obj/item/stack/medical/gauze = 2,
-		/obj/item/healthanalyzer = 1)
+		/obj/item/reagent_containers/pill/patch/libital = 3,
+		/obj/item/stack/medical/gauze = 1,
+		/obj/item/storage/pill_bottle/C2/probital = 1,
+		/obj/item/reagent_containers/hypospray/medipen/salacid = 1)
 	generate_items_inside(items_inside,src)
 
 /obj/item/storage/firstaid/advanced
@@ -239,7 +241,7 @@
 	if(empty)
 		return
 	var/static/items_inside = list(
-		/obj/item/reagent_containers/pill/patch/synthflesh = 3,
+		/obj/item/reagent_containers/pill/patch/instabitaluri = 3,
 		/obj/item/reagent_containers/hypospray/medipen/atropine = 2,
 		/obj/item/stack/medical/gauze = 1,
 		/obj/item/storage/pill_bottle/penacid = 1)
@@ -261,10 +263,10 @@
 	new /obj/item/stack/medical/gauze(src)
 	new /obj/item/defibrillator/compact/combat/loaded(src)
 	new /obj/item/reagent_containers/hypospray/combat(src)
-	new /obj/item/reagent_containers/pill/patch/styptic(src)
-	new /obj/item/reagent_containers/pill/patch/styptic(src)
-	new /obj/item/reagent_containers/pill/patch/silver_sulf(src)
-	new /obj/item/reagent_containers/pill/patch/silver_sulf(src)
+	new /obj/item/reagent_containers/pill/patch/libital(src)
+	new /obj/item/reagent_containers/pill/patch/libital(src)
+	new /obj/item/reagent_containers/pill/patch/aiuri(src)
+	new /obj/item/reagent_containers/pill/patch/aiuri(src)
 	new /obj/item/clothing/glasses/hud/health/night(src)
 
 //medibot assembly
@@ -317,7 +319,7 @@
 /obj/item/storage/pill_bottle/suicide_act(mob/user)
 	user.visible_message("<span class='suicide'>[user] is trying to get the cap off [src]! It looks like [user.p_theyre()] trying to commit suicide!</span>")
 	return (TOXLOSS)
-/*
+
 /obj/item/storage/pill_bottle/multiver
 	name = "bottle of multiver pills"
 	desc = "Contains pills used to counter toxins."
@@ -331,7 +333,7 @@
 /obj/item/storage/pill_bottle/multiver/less/PopulateContents()
 	for(var/i in 1 to 3)
 		new /obj/item/reagent_containers/pill/multiver(src)
-*/
+
 /obj/item/storage/pill_bottle/epinephrine
 	name = "bottle of epinephrine pills"
 	desc = "Contains pills used to stabilize patients."
@@ -355,7 +357,7 @@
 /obj/item/storage/pill_bottle/potassiodide/PopulateContents()
 	for(var/i in 1 to 3)
 		new /obj/item/reagent_containers/pill/potassiodide(src)
-/*
+
 /obj/item/storage/pill_bottle/C2/probital
 	name = "bottle of probital pills"
 	desc = "Contains pills used to treat brute damage.The tag in the bottle states 'Eat before ingesting, may cause fatigue'."
@@ -363,7 +365,7 @@
 /obj/item/storage/pill_bottle/C2/probital/PopulateContents()
 	for(var/i in 1 to 4)
 		new /obj/item/reagent_containers/pill/C2/probital(src)
-*/
+
 /obj/item/storage/pill_bottle/iron
 	name = "bottle of iron pills"
 	desc = "Contains pills used to reduce blood loss slowly.The tag in the bottle states 'Only take one each five minutes'."
@@ -393,9 +395,9 @@
 	desc = "Contains patches used to treat brute and burn damage."
 
 /obj/item/storage/pill_bottle/mining/PopulateContents()
-	new /obj/item/reagent_containers/pill/patch/silver_sulf(src)
+	new /obj/item/reagent_containers/pill/patch/aiuri(src)
 	for(var/i in 1 to 3)
-		new /obj/item/reagent_containers/pill/patch/styptic(src)
+		new /obj/item/reagent_containers/pill/patch/libital(src)
 
 /obj/item/storage/pill_bottle/zoom
 	name = "suspicious pill bottle"

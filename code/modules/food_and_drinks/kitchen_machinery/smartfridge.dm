@@ -446,7 +446,7 @@
 					/obj/item/reagent_containers/glass/bottle,
 					/obj/item/reagent_containers/glass/beaker,
 					/obj/item/reagent_containers/spray,
-					/obj/item/reagent_containers/medspray,
+					/obj/item/reagent_containers/medigel,
 					/obj/item/reagent_containers/chem_pack
 	))
 
@@ -470,9 +470,9 @@
 /obj/machinery/smartfridge/chemistry/preloaded
 	initial_contents = list(
 		/obj/item/reagent_containers/pill/epinephrine = 12,
-		/obj/item/reagent_containers/pill/charcoal = 5,
+		/obj/item/reagent_containers/pill/multiver = 5,
 		/obj/item/reagent_containers/glass/bottle/epinephrine = 1,
-		/obj/item/reagent_containers/glass/bottle/charcoal = 1)
+		/obj/item/reagent_containers/glass/bottle/multiver = 1)
 
 // ----------------------------
 // Virology Medical Smartfridge

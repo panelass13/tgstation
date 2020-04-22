@@ -374,7 +374,7 @@
 		/obj/item/reagent_containers/glass/beaker,
 		/obj/item/reagent_containers/glass/bottle,
 		/obj/item/reagent_containers/food/drinks/waterbottle,
-		/obj/item/reagent_containers/medspray,
+		/obj/item/reagent_containers/medigel,
 		/obj/item/reagent_containers/syringe,
 		/obj/item/reagent_containers/dropper,
 		/obj/item/reagent_containers/chem_pack
