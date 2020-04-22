@@ -43,17 +43,17 @@
 
 /obj/effect/landmark/stationroom/box/bar
 	template_names = list("Bar Trek", "Bar Spacious", "Bar Default", "Bar Casino", "Bar Conveyor", "Bar Diner", "Bar Disco", "Bar Purple", "Bar Box")
-	icon = 'beatstation/icons/rooms/bar.dmi'
+	icon = 'panelastation/icons/rooms/bar.dmi'
 	icon_state = "bar_box"
 
 /obj/effect/landmark/stationroom/box/xenobridge
 	template_names = list("Xenobiology Bridge", "Xenobiology Lattice")
-	icon = 'beatstation/icons/rooms/maint_xenobio.dmi'
+	icon = 'panelastation/icons/rooms/maint_xenobio.dmi'
 	icon_state = "xenobio_maint_default"
 
 /obj/effect/landmark/stationroom/box/telescience
 	template_names = list("Telescience Lab", "Experimentor Lab", "Break Room")
-	icon = 'beatstation/icons/rooms/sci_telescience.dmi'
+	icon = 'panelastation/icons/rooms/sci_telescience.dmi'
 	icon_state = "telescience"
 
 /obj/effect/landmark/stationroom/box/aft_maint
@@ -65,5 +65,5 @@
 
 /obj/effect/landmark/stationroom/box/engine
 	template_names = list("Engine SM", "Engine Singulo And Tesla")
-	icon = 'beatstation/icons/rooms/engine.dmi'
+	icon = 'panelastation/icons/rooms/engine.dmi'
 */
