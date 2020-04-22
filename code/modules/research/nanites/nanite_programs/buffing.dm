@@ -29,7 +29,7 @@
 /datum/nanite_program/adrenaline/on_trigger()
 	to_chat(host_mob, "<span class='notice'>You feel a sudden surge of energy!</span>")
 	host_mob.set_resting(FALSE)
-	host_mob.reagents.add_reagent(/datum/reagent/medicine/badstims, 3)
+	host_mob.reagents.add_reagent(/datum/reagent/medicine/stimulants, 1.5)
 
 /datum/nanite_program/hardening
 	name = "Dermal Hardening"

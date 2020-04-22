@@ -26,7 +26,7 @@
 	if(!iscarbon(eater))
 		return 0
 	return 1 // Masks were stopping people from "eating" patches. Thanks, inheritance.
-
+/*
 /obj/item/reagent_containers/pill/patch/libital
 	name = "libital patch (brute)"
 	desc = "A pain reliever. Does minor liver damage. Diluted with Granibitaluri."
@@ -44,3 +44,4 @@
 	desc = "Helps with brute and burn injuries. Slightly toxic."
 	list_reagents = list(/datum/reagent/medicine/C2/instabitaluri = 20)
 	icon_state = "bandaid_both"
+*/
