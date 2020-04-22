@@ -1,11 +1,11 @@
 /obj/item/reagent_containers/medspray
 	name = "medical spray"
 	desc = "A medical spray bottle, designed for precision application, with an unscrewable cap."
-	icon = 'beatstation/icons/obj/chemical.dmi'
+	icon = 'panelastation/icons/obj/chemical.dmi'
 	icon_state = "medspray"
 	item_state = "spraycan"
-	lefthand_file = 'beatstation/icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
-	righthand_file = 'beatstation/icons/mob/inhands/equipment/hydroponics_righthand.dmi'
+	lefthand_file = 'panelastation/icons/mob/inhands/equipment/hydroponics_lefthand.dmi'
+	righthand_file = 'panelastation/icons/mob/inhands/equipment/hydroponics_righthand.dmi'
 	item_flags = NOBLUDGEON
 	obj_flags = UNIQUE_RENAME
 	reagent_flags = OPENCONTAINER

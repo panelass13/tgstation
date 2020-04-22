@@ -23,11 +23,11 @@ tgstation.int
 tgstation.rsc
 tgstation.lk
 tgstation.dyn.rsc
-beatstation.dmb
-beatstation.int
-beatstation.rsc
-beatstation.lk
-beatstation.dyn.rsc
+panelastation.dmb
+panelastation.int
+panelastation.rsc
+panelastation.lk
+panelastation.dyn.rsc
 libmariadb.dll
 rust_g.dll
 BSQL.dll

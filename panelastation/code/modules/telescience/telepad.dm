@@ -2,7 +2,7 @@
 /obj/machinery/telepad
 	name = "telepad"
 	desc = "A bluespace telepad used for teleporting objects to and from a location."
-	icon = 'beatstation/icons/obj/telescience.dmi'
+	icon = 'panelastation/icons/obj/telescience.dmi'
 	icon_state = "pad-idle"
 	anchored = 1
 	use_power = 1
