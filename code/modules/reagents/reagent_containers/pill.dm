@@ -111,14 +111,14 @@
 	icon_state = "pill16"
 	list_reagents = list(/datum/reagent/medicine/salbutamol = 30)
 	rename_with_volume = TRUE
-/*
+
 /obj/item/reagent_containers/pill/multiver
 	name = "multiver pill"
 	desc = "Neutralizes many common toxins and scales with unique medicine in the system. Diluted with granibitaluri."
 	icon_state = "pill17"
 	list_reagents = list(/datum/reagent/medicine/C2/multiver = 5, /datum/reagent/medicine/granibitaluri = 5)
 	rename_with_volume = TRUE
-*/
+
 /obj/item/reagent_containers/pill/epinephrine
 	name = "epinephrine pill"
 	desc = "Used to stabilize patients."
@@ -261,14 +261,14 @@
 	icon_state = "pill11"
 	list_reagents = list(/datum/reagent/medicine/potass_iodide = 15)
 	rename_with_volume = TRUE
-/*
+
 /obj/item/reagent_containers/pill/C2/probital
 	name = "Probital pill"
 	desc = "Used to treat brute damage of minor and moderate severity.The carving in the pill says 'Eat before ingesting'. Causes fatigue and diluted with granibitaluri."
 	icon_state = "pill12"
 	list_reagents = list(/datum/reagent/medicine/C2/probital = 5, /datum/reagent/medicine/granibitaluri = 10)
 	rename_with_volume = TRUE
-*/
+
 /obj/item/reagent_containers/pill/iron
 	name = "iron pill"
 	desc = "Used to reduce bloodloss slowly."

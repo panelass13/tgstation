@@ -11,7 +11,6 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 		/obj/machinery/teleport/station,
 		/obj/machinery/teleport/hub,
 		/obj/machinery/quantumpad,
-		/obj/machinery/clonepod,
 		/obj/effect/mob_spawn,
 		/obj/effect/hierophant,
 		/obj/structure/receiving_pad,
@@ -31,9 +30,7 @@ GLOBAL_LIST_INIT(blacklisted_cargo_types, typecacheof(list(
 		/obj/structure/disposalpipe,
 		/obj/item/hilbertshotel,
 		/obj/machinery/camera,
-		/obj/item/gps,
-		/obj/machinery/telepad, //Hippie - Shouldn't be exportable, could be used to retrieve someone from the station if it was on the Centcom Z-level.
-        /obj/machinery/computer/telescience //Hippie - Used to control the telepad.
+		/obj/item/gps
 	)))
 
 /obj/docking_port/mobile/supply
