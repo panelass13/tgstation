@@ -11,6 +11,18 @@
 	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
 	resistance_flags = NONE
 
+/obj/item/clothing/mask/devil
+	name = "devil mask"
+	desc = "A face-covering mask summoned into this world by an paranormal entity."
+	icon_state = "devilmask0"
+	item_state = "devilmask0"
+	armor = list("melee" = 50, "bullet" = 30, "laser" = 40,"energy" = 40, "bomb" = 20, "bio" = 2, "rad" = 10, "fire" = 80, "acid" = 35)
+	clothing_flags = BLOCK_GAS_SMOKE_EFFECT | MASKINTERNALS
+	flash_protect = FLASH_PROTECTION_FLASH
+	flags_cover = MASKCOVERSEYES | MASKCOVERSMOUTH | PEPPERPROOF
+	resistance_flags = FIRE_PROOF | ACID_PROOF
+	tint = 1
+
 /obj/item/clothing/mask/gas/atmos
 	name = "atmospheric gas mask"
 	desc = "Improved gas mask utilized by atmospheric technicians. Still not very good at blocking gas flow, but it's flameproof!"
