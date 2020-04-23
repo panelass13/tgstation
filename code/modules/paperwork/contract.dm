@@ -215,14 +215,14 @@
 		playsound(user, 'sound/ambience/antag/sigil.ogg', 60, FALSE, pressure_affected = FALSE)
 		user.adjust_blurriness(5)
 		user.emote("scream")
-		user.Sleeping(1)
+		user.Sleeping(40)
 		to_chat(user, "<span class='notice'>You feel your soul leaving your body, you are empty.</span>")
 		if(fulfillContract(target.current, blood)<=0)
 			to_chat(user, "<span class='notice'>But it seemed to have no effect, perhaps even Hell itself cannot grant this boon?</span>")
 			playsound(user, 'sound/ambience/antag/sigil.ogg', 60, FALSE, pressure_affected = FALSE)
 			user.adjust_blurriness(5)
 			user.emote("scream")
-			user.Sleeping(1)
+			user.Sleeping(40)
 			to_chat(user, "<span class='notice'>You feel your soul leaving your body, you are empty.</span>")
 		return 1
 
