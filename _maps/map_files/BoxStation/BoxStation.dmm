@@ -14003,7 +14003,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 5
 	},
 /turf/open/floor/plasteel,
@@ -14016,9 +14016,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/decal/boxingrope{
-	dir = 1
-	},
+/obj/structure/boxingrope,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aKs" = (
@@ -14124,9 +14122,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/decal/boxingrope{
-	dir = 1
-	},
+/obj/structure/boxingrope,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aKK" = (
@@ -15859,7 +15855,7 @@
 /area/crew_quarters/bar)
 "aPZ" = (
 /obj/structure/chair/stool,
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 10
 	},
 /turf/open/floor/engine,
@@ -48189,7 +48185,7 @@
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
 "cXp" = (
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -48655,7 +48651,7 @@
 /turf/closed/wall,
 /area/security/prison/safe)
 "ebI" = (
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 6
 	},
 /turf/open/floor/engine,
@@ -50696,10 +50692,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/decal/boxingrope{
+/obj/structure/chair/stool,
+/obj/structure/boxingrope{
 	dir = 4
 	},
-/obj/structure/chair/stool,
 /turf/open/floor/engine,
 /area/crew_quarters/bar)
 "kcN" = (
@@ -53474,7 +53470,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -53512,7 +53508,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 9
 	},
 /turf/open/floor/plasteel,
@@ -54465,7 +54461,7 @@
 /turf/open/floor/plasteel/showroomfloor,
 /area/crew_quarters/kitchen)
 "tOJ" = (
-/obj/decal/boxingrope{
+/obj/structure/boxingrope{
 	dir = 8
 	},
 /turf/open/floor/engine,
@@ -54954,7 +54950,9 @@
 	},
 /area/science/research)
 "vdA" = (
-/obj/decal/boxingrope,
+/obj/structure/boxingrope{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/crew_quarters/bar)
 "vdT" = (
@@ -54988,9 +54986,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/decal/boxingrope{
-	dir = 1
-	},
+/obj/structure/boxingrope,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "vgY" = (
@@ -89744,7 +89740,7 @@ aAh
 aAh
 aAh
 aJC
-aLZ
+aJC
 aJC
 aJC
 bYP
@@ -90001,7 +89997,7 @@ aCr
 aCr
 rnE
 tOJ
-vTI
+tOJ
 tOJ
 aPZ
 aRu
