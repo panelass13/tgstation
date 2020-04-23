@@ -1,3 +1,19 @@
+/obj/effect/proc_holder/spell/targeted/conjure_item/summon_mask
+	name = "Summon Mask"
+	desc = "The devil's mask. Use this to summon/unsummon your devil mask."
+	invocation_type = "none"
+	include_user = TRUE
+	range = -1
+	clothes_req = FALSE
+	item_type = /obj/item/clothing/mask/devil
+	school = "conjuration"
+	charge_max = 150
+	cooldown_min = 5
+	action_icon = 'icons/mob/actions/actions_minor_antag.dmi'
+	action_icon_state = "devilmask"
+	action_background_icon_state = "bg_demon"
+	sound = 'sound/magic/summon_devil.ogg'
+
 /obj/effect/proc_holder/spell/targeted/conjure_item/summon_pitchfork
 	name = "Summon Pitchfork"
 	desc = "A devil's weapon of choice.  Use this to summon/unsummon your pitchfork."
