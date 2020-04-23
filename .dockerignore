@@ -23,6 +23,11 @@ tgstation.int
 tgstation.rsc
 tgstation.lk
 tgstation.dyn.rsc
+panelastation.dmb
+panelastation.int
+panelastation.rsc
+panelastation.lk
+panelastation.dyn.rsc
 libmariadb.dll
 rust_g.dll
 BSQL.dll
