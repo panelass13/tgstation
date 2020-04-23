@@ -21929,6 +21929,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
+/obj/machinery/light/small{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
 "bgp" = (
@@ -23408,8 +23411,8 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "bkd" = (
-/obj/machinery/clonepod,
-/turf/open/floor/plasteel/white,
+/obj/machinery/computer/cloning,
+/turf/open/floor/plasteel/airless/dark,
 /area/medical/genetics/cloning)
 "bkf" = (
 /turf/open/floor/plasteel/white,
@@ -23920,7 +23923,7 @@
 	name = "Air Alarm"
 	},
 /turf/open/floor/plasteel/white,
-/area/space)
+/area/medical/genetics/cloning)
 "blp" = (
 /obj/machinery/power/apc{
 	areastring = "/area/security/checkpoint/medical";
@@ -25672,6 +25675,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden{
 	dir = 8
+	},
+/obj/machinery/light/small{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/medical/morgue)
@@ -40299,6 +40305,13 @@
 /obj/structure/disposalpipe/segment,
 /turf/closed/wall/r_wall,
 /area/maintenance/starboard/aft)
+"ceK" = (
+/obj/structure/closet/wardrobe/pjs,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/genetics/cloning)
 "ceM" = (
 /obj/machinery/meter,
 /obj/structure/disposalpipe/segment,
@@ -50467,8 +50480,11 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "jAv" = (
-/obj/machinery/computer/cloning,
-/turf/open/floor/plasteel/white,
+/obj/machinery/clonepod,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/plasteel/airless/dark,
 /area/medical/genetics/cloning)
 "jAD" = (
 /obj/structure/grille,
@@ -50747,6 +50763,13 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plating,
 /area/maintenance/fore/secondary)
+"khO" = (
+/obj/machinery/clonepod,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/plasteel/airless/dark,
+/area/medical/genetics/cloning)
 "kjO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /obj/effect/turf_decal/tile/red{
@@ -50859,8 +50882,8 @@
 /turf/closed/wall/r_wall,
 /area/science/mixing/chamber)
 "kDK" = (
-/obj/structure/closet/wardrobe/pjs,
-/turf/open/floor/plasteel/white,
+/obj/machinery/dna_scannernew,
+/turf/open/floor/plasteel/airless/dark,
 /area/medical/genetics/cloning)
 "kEZ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on,
@@ -52966,6 +52989,9 @@
 "pIk" = (
 /obj/structure/table/glass,
 /obj/item/book/manual/wiki/medical_cloning,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "pIS" = (
@@ -54142,6 +54168,12 @@
 	},
 /turf/open/floor/engine,
 /area/science/misc_lab)
+"tcX" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 4
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/genetics/cloning)
 "tcY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -56184,6 +56216,12 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
+"ygG" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/genetics/cloning)
 "ygP" = (
 /obj/machinery/airalarm{
 	pixel_y = 23
@@ -95939,7 +95977,7 @@ aNv
 bcq
 bof
 bhp
-bhh
+bGX
 bhh
 bhh
 bkU
@@ -96711,8 +96749,8 @@ biB
 kQk
 jAv
 bkd
-bkd
-jAv
+kDK
+ceK
 cTO
 fpT
 bpJ
@@ -96966,9 +97004,9 @@ aYV
 aYV
 aYV
 kQk
+tcX
 bkf
-bkf
-bkf
+ygG
 bkf
 blo
 qsH
@@ -97223,9 +97261,9 @@ aYV
 aYV
 bkb
 kQk
+ygG
 bkf
-bkf
-bkf
+tcX
 dSR
 pxx
 qsH
@@ -97480,7 +97518,7 @@ aYV
 aYV
 bmX
 kQk
-jAv
+khO
 bkd
 kDK
 pIk
