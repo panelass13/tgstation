@@ -20,6 +20,9 @@
 	wings_icon = "Megamoth"
 	has_innate_wings = TRUE
 
+/datum/species/moth/check_roundstart_eligible()
+	return TRUE
+
 /datum/species/moth/regenerate_organs(mob/living/carbon/C,datum/species/old_species,replace_current=TRUE,list/excluded_zones)
 	. = ..()
 	if(ishuman(C))
