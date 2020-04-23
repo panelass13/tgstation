@@ -6,6 +6,9 @@
 	icon = 'icons/obj/boxing.dmi'
 	icon_state = "ringrope"
 	layer = OBJ_LAYER
+	climb_time = 8
+	climb_stun = 1
+	climbable = TRUE
 
 /obj/decal/boxingrope/CanPass(atom/movable/mover, turf/target, height=0, air_group=0) // stolen from window.dm
 	. = ..()
