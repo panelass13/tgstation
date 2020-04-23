@@ -14735,6 +14735,8 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
+/obj/structure/table,
+/obj/item/flashlight/lamp/green,
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
 "aMw" = (
@@ -15082,6 +15084,9 @@
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
+	},
+/obj/structure/chair/comfy/brown{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/crew_quarters/bar)
@@ -48189,6 +48194,16 @@
 	},
 /turf/open/floor/engine,
 /area/crew_quarters/bar)
+"cYe" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/structure/chair/comfy/brown{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "cYj" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Psychology Maintenance";
@@ -48674,6 +48689,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
+"ehY" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel,
+/area/crew_quarters/bar)
 "eja" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/computer/nanite_chamber_control{
@@ -91521,8 +91544,8 @@ aJC
 jqR
 aMv
 aNH
-aQc
-aQc
+cYe
+ehY
 aPY
 aSG
 aPY
