@@ -1,4 +1,4 @@
-/obj/machinery/vending/medical
+/obj/machinery/vending/portable_medical
 	name = "\improper Port-A-Nanomed Plus"
 	desc = "Medical drug dispenser, that you can carry around."
 	icon_state = "floatmed"
