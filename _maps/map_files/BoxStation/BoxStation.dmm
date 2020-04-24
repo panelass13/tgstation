@@ -53134,6 +53134,11 @@
 	},
 /turf/closed/wall,
 /area/quartermaster/sorting)
+"pVB" = (
+/obj/effect/turf_decal/bot,
+/obj/machinery/portable_atmospherics/canister/tier_3,
+/turf/open/floor/plasteel,
+/area/science/mixing)
 "pWN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -53396,9 +53401,9 @@
 /turf/open/floor/plasteel/dark,
 /area/security/execution/transfer)
 "qQC" = (
-/obj/machinery/portable_atmospherics/canister,
 /obj/effect/turf_decal/bot,
 /obj/structure/cable,
+/obj/machinery/portable_atmospherics/canister/tier_3,
 /turf/open/floor/plasteel,
 /area/science/mixing)
 "qQH" = (
@@ -104937,7 +104942,7 @@ flN
 rYJ
 rYJ
 bFW
-rYJ
+pVB
 qQC
 dCN
 bLi
