@@ -29,6 +29,7 @@
 #include "panelastation\code\game\objects\structures\bar_stuff.dm"
 #include "panelastation\code\game\objects\structures\crate_lockers\closets\secure\service.dm"
 #include "panelastation\code\game\turfs\closed\walls.dm"
+#include "panelastation\code\modules\atmospherics\machinery\portable\pump.dm"
 #include "panelastation\code\modules\client\verbs\looc.dm"
 #include "panelastation\code\modules\jobs\job_types\chemist.dm"
 #include "panelastation\code\modules\jobs\job_types\chief_medical_officer.dm"

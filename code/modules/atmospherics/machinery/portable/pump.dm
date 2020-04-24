@@ -13,7 +13,7 @@
 
 	max_integrity = 250
 	///Max amount of heat allowed inside of the canister before it starts to melt (different tiers have different limits)
-	var/heat_limit = 500000
+	var/heat_limit = 50000
 	///Max amount of pressure allowed inside of the canister before it starts to break (different tiers have different limits)
 	var/pressure_limit = 50000
 
