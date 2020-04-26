@@ -35,11 +35,13 @@
 
 	if(CONFIG_GET(flag/enforce_human_authority))
 		H.set_species(/datum/species/human)
+
 /*
 /datum/antagonist/soulbreaker/create_team(datum/team/new_team)
 	if(istype(new_team))
 		soulbreaker_squad = new_team
 */
+
 /datum/antagonist/slaver/proc/forge_objectives()
 	if (!mission)
 		var/datum/objective/missionobj = new
