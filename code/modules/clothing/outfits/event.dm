@@ -1,6 +1,5 @@
 /datum/outfit/santa //ho ho ho!
 	name = "Santa Claus"
-
 	uniform = /obj/item/clothing/under/color/red
 	shoes = /obj/item/clothing/shoes/sneakers/red
 	suit = /obj/item/clothing/suit/space/santa
@@ -18,7 +17,6 @@
 	H.fully_replace_character_name(H.real_name, "Santa Claus")
 	H.mind.assigned_role = "Santa"
 	H.mind.special_role = "Santa"
-
 	H.hairstyle = "Long Hair 3"
 	H.facial_hairstyle = "Beard (Full)"
 	H.hair_color = "FFF"
@@ -27,7 +25,6 @@
 
 /datum/outfit/soulbreaker/slaver
 	name = "Soulbreaker Slaver"
-
 	uniform = /obj/item/clothing/under/color/lightpurple
 	suit = /obj/item/clothing/suit/armor/soulbreaker
 	shoes = /obj/item/clothing/shoes/combat
