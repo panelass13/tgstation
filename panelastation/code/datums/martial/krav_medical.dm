@@ -11,7 +11,6 @@
 	                                                     /area/medical/chemistry,
 														 /area/medical/sleeper,
 														 /area/medical/morgue,
-														 /area/medical/genetics,
 														 /area/medical/genetics/cloning,
 														 /area/medical/exam_room,
 														 /area/medical/virology,
