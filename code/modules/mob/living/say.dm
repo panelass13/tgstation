@@ -140,6 +140,9 @@ GLOBAL_LIST_INIT(department_radio_keys, list(
 		if(!(unconscious_allowed_modes[message_mode]))
 			return
 
+	if(kick_check(message, src)) // IC filter check - if pass, the user will be kicked from the server
+		return
+
 	// language comma detection.
 	var/datum/language/message_language = get_message_language(message)
 	if(message_language)
