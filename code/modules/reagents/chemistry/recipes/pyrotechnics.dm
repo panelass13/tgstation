@@ -119,7 +119,12 @@
 	required_reagents = list(/datum/reagent/medicine/corazone = 1, /datum/reagent/phenol = 1, /datum/reagent/acetone_oxide = 1)
 	required_temp = 315
 	strengthdiv = 5
-
+/*
+/datum/chemical_reaction/reagent_explosion/penthrite_explosion_atropine
+	required_reagents = list(/datum/reagent/medicine/C2/penthrite = 1, /datum/reagent/medicine/atropine = 1)
+	strengthdiv = 5
+	modifier = 5
+*/
 /datum/chemical_reaction/reagent_explosion/potassium_explosion
 	required_reagents = list(/datum/reagent/water = 1, /datum/reagent/potassium = 1)
 	strengthdiv = 20
