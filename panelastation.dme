@@ -67,4 +67,6 @@
 #include "panelastation\code\modules\telescience\telesci_computer.dm"
 #include "panelastation\code\modules\vending\_vending.dm"
 #include "panelastation\code\modules\vending\medical.dm"
+#include "panelastation\code\modules\mining\equipment\regenerative_core.dm"
+#include "panelastation\code\game\mutations"
 // END_INCLUDE
