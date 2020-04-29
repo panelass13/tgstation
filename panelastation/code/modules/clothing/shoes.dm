@@ -9,8 +9,8 @@
 	icon_state = null
 
 /obj/item/clothing/shoes/digitigrade/process()
-	var/mob/living/carbon/human/M = loc
 	if(ismob(loc))
+		var/mob/living/carbon/human/M = loc
 		if(M.get_item_by_slot(ITEM_SLOT_ICLOTHING))
 			mob_overlay_icon = 'icons/mob/clothing/feet.dmi'
 			M.update_inv_shoes()
