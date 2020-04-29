@@ -54,6 +54,12 @@
 	name = "four-color pen"
 	colour = "black"
 
+/obj/item/pen/banana
+	desc = "Bad feelings..."
+	icon_state = "banana"
+	name = "banana pen"
+	colour = "yellow"
+
 /obj/item/pen/fourcolor/attack_self(mob/living/carbon/user)
 	switch(colour)
 		if("black")

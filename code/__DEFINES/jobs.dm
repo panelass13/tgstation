@@ -52,8 +52,8 @@
 #define JOB_UNAVAILABLE_ACCOUNTAGE 4
 #define JOB_UNAVAILABLE_SLOTFULL 5
 
-#define DEFAULT_RELIGION "Christianity"
-#define DEFAULT_DEITY "Space Jesus"
+#define DEFAULT_RELIGION "Hamoodism"
+#define DEFAULT_DEITY "Hamood Habibi"
 
 #define JOB_DISPLAY_ORDER_DEFAULT 0
 

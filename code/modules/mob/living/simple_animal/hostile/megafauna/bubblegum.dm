@@ -75,6 +75,16 @@ Difficulty: Hard
 							   /datum/action/innate/megafauna_attack/blood_warp)
 	small_sprite_type = /datum/action/small_sprite/megafauna/bubblegum
 
+/mob/living/simple_animal/hostile/megafauna/bubblegum/hamood_habibi
+	name = "hamood habibi"
+	desc = "the god and the devil, the hamood and the habibi"
+	health = 800
+	maxHealth = 800
+	attack_sound = 'sound/magic/hamood_attack.ogg'
+	attack_sound = 'sound/magic/hamood_death.ogg'
+	icon_state = "hamood"
+	icon_living = "hamood"
+
 /datum/action/innate/megafauna_attack/triple_charge
 	name = "Triple Charge"
 	icon_icon = 'icons/mob/actions/actions_items.dmi'
