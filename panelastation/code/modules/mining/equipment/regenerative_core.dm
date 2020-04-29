@@ -1,4 +1,4 @@
-/obj/item/organ/regenerative_core/proc/applyto(atom/target, mob/user)
+/obj/item/organ/regenerative_core/applyto(atom/target, mob/user)
 	if(ishuman(target))
 		var/mob/living/carbon/human/H = target
 		if(inert)
