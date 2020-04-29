@@ -950,9 +950,13 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				return FALSE
 			if(num_legs < 2)
 				return FALSE
-			if(DIGITIGRADE in species_traits)
+			if(!I.digitigrade_allowed && (DIGITIGRADE in species_traits))
 				if(!disable_warning)
-					to_chat(H, "<span class='warning'>The footwear around here isn't compatible with your feet!</span>")
+					to_chat(H, "<span class='warning'>Those don't fit in you</span>")
+				return FALSE
+			if(I.digitigrade_allowed && !(DIGITIGRADE in species_traits))
+				if(!disable_warning)
+					to_chat(H, "<span class='warning'>Those don't fit in you</span>")
 				return FALSE
 			return equip_delay_self_check(I, H, bypass_equip_delay_self)
 		if(ITEM_SLOT_BELT)

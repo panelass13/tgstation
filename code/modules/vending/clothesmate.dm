@@ -6,7 +6,12 @@
 	icon_deny = "clothes-deny"
 	product_slogans = "Dress for success!;Prepare to look swagalicious!;Look at all this swag!;Why leave style up to fate? Use the ClothesMate!"
 	vend_reply = "Thank you for using the ClothesMate!"
-	products = list(/obj/item/clothing/head/beanie = 3,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/brown = 3,
+					/obj/item/clothing/shoes/digitigrade/sneakers/black = 3,
+					/obj/item/clothing/shoes/digitigrade/sneakers/white = 3,
+					/obj/item/clothing/shoes/digitigrade/winterboots = 3,
+					/obj/item/clothing/shoes/digitigrade/laceup = 3,
+					/obj/item/clothing/head/beanie = 3,
 		            /obj/item/clothing/head/beanie/black = 3,
 		            /obj/item/clothing/head/beanie/red = 3,
 		            /obj/item/clothing/head/beanie/green = 3,

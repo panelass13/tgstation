@@ -17,7 +17,8 @@
 	icon_state = "secdrobe"
 	product_ads = "Beat perps in style!;It's red so you can't see the blood!;You have the right to be fashionable!;Now you can be the fashion police you always wanted to be!"
 	vend_reply = "Thank you for using the SecDrobe!"
-	products = list(/obj/item/clothing/suit/hooded/wintercoat/security = 3,
+	products = list(/obj/item/clothing/shoes/digitigrade/jackboots = 3,
+					/obj/item/clothing/suit/hooded/wintercoat/security = 3,
 					/obj/item/storage/backpack/security = 3,
 					/obj/item/storage/backpack/satchel/sec = 3,
 					/obj/item/storage/backpack/duffelbag/sec = 3,
@@ -47,7 +48,8 @@
 	icon_state = "medidrobe"
 	product_ads = "Make those blood stains look fashionable!!"
 	vend_reply = "Thank you for using the MediDrobe!"
-	products = list(/obj/item/clothing/accessory/pocketprotector = 4,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/white = 4,
+					/obj/item/clothing/accessory/pocketprotector = 4,
 					/obj/item/storage/backpack/duffelbag/med = 4,
 					/obj/item/storage/backpack/medic = 4,
 					/obj/item/storage/backpack/satchel/med = 4,
@@ -77,7 +79,8 @@
 	icon_state = "engidrobe"
 	product_ads = "Guaranteed to protect your feet from industrial accidents!;Afraid of radiation? Then wear yellow!"
 	vend_reply = "Thank you for using the EngiDrobe!"
-	products = list(/obj/item/clothing/accessory/pocketprotector = 3,
+	products = list(/obj/item/clothing/shoes/digitigrade/workboots = 3,
+					/obj/item/clothing/accessory/pocketprotector = 3,
 					/obj/item/storage/backpack/duffelbag/engineering = 3,
 					/obj/item/storage/backpack/industrial = 3,
 					/obj/item/storage/backpack/satchel/eng = 3,
@@ -102,7 +105,8 @@
 	icon_state = "atmosdrobe"
 	product_ads = "Get your inflammable clothing right here!!!"
 	vend_reply = "Thank you for using the AtmosDrobe!"
-	products = list(/obj/item/clothing/accessory/pocketprotector = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/black = 3,
+					/obj/item/clothing/accessory/pocketprotector = 2,
 					/obj/item/storage/backpack/duffelbag/engineering = 2,
 					/obj/item/storage/backpack/satchel/eng = 2,
 					/obj/item/storage/backpack/industrial = 2,
@@ -123,7 +127,8 @@
 	icon_state = "cargodrobe"
 	product_ads = "Upgraded Assistant Style! Pick yours today!;These shorts are comfy and easy to wear, get yours now!"
 	vend_reply = "Thank you for using the CargoDrobe!"
-	products = list(/obj/item/clothing/suit/hooded/wintercoat/cargo = 3,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/black = 3,
+					/obj/item/clothing/suit/hooded/wintercoat/cargo = 3,
 					/obj/item/clothing/under/rank/cargo/tech = 3,
 					/obj/item/clothing/under/rank/cargo/tech/skirt = 3,
 					/obj/item/clothing/shoes/sneakers/black = 3,
@@ -142,7 +147,8 @@
 	icon_state = "robodrobe"
 	product_ads = "You turn me TRUE, use defines!;0110001101101100011011110111010001101000011001010111001101101000011001010111001001100101"
 	vend_reply = "Thank you for using the RoboDrobe!"
-	products = list(/obj/item/clothing/glasses/hud/diagnostic = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/black = 2,
+					/obj/item/clothing/glasses/hud/diagnostic = 2,
 					/obj/item/clothing/under/rank/rnd/roboticist = 2,
 					/obj/item/clothing/under/rank/rnd/roboticist/skirt = 2,
 					/obj/item/clothing/suit/toggle/labcoat = 2,
@@ -164,7 +170,8 @@
 	icon_state = "scidrobe"
 	product_ads = "Longing for the smell of plasma burnt flesh? Buy your science clothing now!;Made with 10% Auxetics, so you don't have to worry about losing your arm!"
 	vend_reply = "Thank you for using the SciDrobe!"
-	products = list(/obj/item/clothing/accessory/pocketprotector = 3,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/white = 3,
+					/obj/item/clothing/accessory/pocketprotector = 3,
 					/obj/item/storage/backpack/science = 3,
 					/obj/item/storage/backpack/satchel/tox = 3,
 					/obj/item/clothing/suit/hooded/wintercoat/science = 3,
@@ -263,7 +270,8 @@
 	icon_state = "chefdrobe"
 	product_ads = "Our clothes are guaranteed to protect you from food splatters!"
 	vend_reply = "Thank you for using the ChefDrobe!"
-	products = list(/obj/item/clothing/under/suit/waiter = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/white = 2,
+					/obj/item/clothing/under/suit/waiter = 2,
 					/obj/item/radio/headset/headset_srv = 2,
 					/obj/item/clothing/accessory/waistcoat = 2,
 					/obj/item/clothing/suit/apron/chef = 3,
@@ -289,7 +297,8 @@
 	icon_state = "janidrobe"
 	product_ads = "Come and get your janitorial clothing, now endorsed by lizard janitors everywhere!"
 	vend_reply = "Thank you for using the JaniDrobe!"
-	products = list(/obj/item/clothing/under/rank/civilian/janitor = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/galoshes = 2,
+					/obj/item/clothing/under/rank/civilian/janitor = 2,
 					/obj/item/cartridge/janitor = 2,
 					/obj/item/clothing/under/rank/civilian/janitor/skirt = 2,
 					/obj/item/clothing/gloves/color/black = 2,
@@ -319,7 +328,8 @@
 	icon_state = "lawdrobe"
 	product_ads = "OBJECTION! Get the rule of law for yourself!"
 	vend_reply = "Thank you for using the LawDrobe!"
-	products = list(/obj/item/clothing/under/rank/civilian/lawyer/bluesuit = 1,
+	products = list(/obj/item/clothing/shoes/digitigrade/laceup = 2,
+					/obj/item/clothing/under/rank/civilian/lawyer/bluesuit = 1,
 					/obj/item/clothing/under/rank/civilian/lawyer/bluesuit/skirt = 1,
 					/obj/item/clothing/suit/toggle/lawyer = 1,
 					/obj/item/clothing/under/rank/civilian/lawyer/purpsuit = 1,
@@ -351,7 +361,8 @@
 	icon_state = "chapdrobe"
 	product_ads = "Are you being bothered by cultists or pesky revenants? Then come and dress like the holy man!;Clothes for men of the cloth!"
 	vend_reply = "Thank you for using the ChapDrobe!"
-	products = list(/obj/item/choice_beacon/holy = 1,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/black = 1,
+					/obj/item/choice_beacon/holy = 1,
 					/obj/item/storage/backpack/cultpack = 1,
 					/obj/item/clothing/accessory/pocketprotector/cosmetology = 1,
 					/obj/item/clothing/under/rank/civilian/chaplain = 1,
@@ -386,7 +397,8 @@
 	icon_state = "chemdrobe"
 	product_ads = "Our clothes are 0.5% more resistant to acid spills! Get yours now!"
 	vend_reply = "Thank you for using the ChemDrobe!"
-	products = list(/obj/item/clothing/under/rank/medical/chemist = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/white = 2,
+					/obj/item/clothing/under/rank/medical/chemist = 2,
 					/obj/item/clothing/under/rank/medical/chemist/skirt = 2,
 					/obj/item/clothing/shoes/sneakers/white = 2,
 					/obj/item/clothing/suit/toggle/labcoat/chemist = 2,
@@ -405,7 +417,8 @@
 	icon_state = "genedrobe"
 	product_ads = "Perfect for the mad scientist in you!"
 	vend_reply = "Thank you for using the GeneDrobe!"
-	products = list(/obj/item/clothing/under/rank/rnd/geneticist = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/white = 2,
+					/obj/item/clothing/under/rank/rnd/geneticist = 2,
 					/obj/item/clothing/under/rank/rnd/geneticist/skirt = 2,
 					/obj/item/clothing/shoes/sneakers/white = 2,
 					/obj/item/clothing/suit/toggle/labcoat/genetics = 2,
@@ -422,7 +435,8 @@
 	icon_state = "virodrobe"
 	product_ads = " Viruses getting you down? Then upgrade to sterilized clothing today!"
 	vend_reply = "Thank you for using the ViroDrobe"
-	products = list(/obj/item/clothing/under/rank/medical/virologist = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/white = 2,
+					/obj/item/clothing/under/rank/medical/virologist = 2,
 					/obj/item/clothing/under/rank/medical/virologist/skirt = 2,
 					/obj/item/clothing/shoes/sneakers/white = 2,
 					/obj/item/clothing/suit/toggle/labcoat/virologist = 2,
@@ -440,7 +454,8 @@
 	icon_state = "detdrobe"
 	product_ads = "Apply your brilliant deductive methods in style!"
 	vend_reply = "Thank you for using the DetDrobe!"
-	products = list(/obj/item/clothing/under/rank/security/detective = 2,
+	products = list(/obj/item/clothing/shoes/digitigrade/sneakers/brown = 2,
+					/obj/item/clothing/under/rank/security/detective = 2,
 					/obj/item/clothing/under/rank/security/detective/skirt = 2,
 					/obj/item/clothing/shoes/sneakers/brown = 2,
 					/obj/item/clothing/suit/det_suit = 2,
