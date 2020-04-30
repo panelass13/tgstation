@@ -3737,7 +3737,7 @@
 /turf/open/floor/plasteel,
 /area/security/brig)
 "ajd" = (
-/obj/structure/plaque/static_plaque/golden{
+/obj/structure/sign/plaques/golden{
 	pixel_y = 32
 	},
 /obj/effect/turf_decal/tile/red{
@@ -6440,7 +6440,14 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/machinery/computer/cloning,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/structure/table/glass,
+/obj/item/radio/intercom{
+	pixel_y = 20
+	},
+/obj/item/storage/box/bodybags,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "apA" = (
@@ -26164,7 +26171,10 @@
 /area/medical/psychology)
 "brb" = (
 /obj/effect/turf_decal/tile/blue,
-/obj/machinery/clonepod,
+/obj/structure/disposalpipe/trunk{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "brc" = (
@@ -26666,6 +26676,7 @@
 	name = "Cloning Room";
 	req_access_txt = "5"
 	},
+/obj/effect/mapping_helpers/airlock/unres,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bsw" = (
@@ -27237,12 +27248,11 @@
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bun" = (
-/obj/structure/disposalpipe/segment{
-	dir = 6
-	},
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/structure/cable,
-/obj/machinery/dna_scannernew,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "buo" = (
@@ -27256,6 +27266,9 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bur" = (
@@ -27280,7 +27293,6 @@
 /obj/structure/sign/poster/official/cleanliness{
 	pixel_y = 32
 	},
-/obj/machinery/computer/cloning,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "buu" = (
@@ -27633,9 +27645,9 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = -24
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
@@ -27652,11 +27664,8 @@
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "bvr" = (
-/obj/structure/disposalpipe/segment,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
-	dir = 4
-	},
-/turf/open/floor/plasteel/white,
+/obj/structure/mirror,
+/turf/closed/wall,
 /area/medical/genetics/cloning)
 "bvu" = (
 /obj/effect/turf_decal/tile/blue,
@@ -27688,11 +27697,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/blue,
-/obj/machinery/camera{
-	c_tag = "Medbay Ward";
-	dir = 4;
-	network = list("ss13","medbay")
-	},
+/obj/item/kirbyplants/random,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bvz" = (
@@ -28111,9 +28116,6 @@
 /turf/open/floor/plasteel,
 /area/medical/sleeper)
 "bwK" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = 27
-	},
 /obj/machinery/light{
 	dir = 4
 	},
@@ -28608,8 +28610,10 @@
 /turf/open/floor/plasteel,
 /area/quartermaster/qm)
 "bye" = (
-/obj/effect/turf_decal/tile/blue,
-/obj/machinery/dna_scannernew,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "byf" = (
@@ -29140,6 +29144,11 @@
 "bzl" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/tile/blue,
+/obj/machinery/clonepod,
+/obj/machinery/shower{
+	dir = 8;
+	pixel_y = -4
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bzm" = (
@@ -29148,14 +29157,11 @@
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bzo" = (
-/obj/machinery/disposal/bin,
-/obj/structure/disposalpipe/trunk{
-	dir = 1
-	},
 /obj/machinery/light_switch{
 	pixel_y = -28
 	},
 /obj/effect/turf_decal/tile/blue,
+/obj/structure/closet/wardrobe/white,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "bzs" = (
@@ -29752,6 +29758,7 @@
 "bAR" = (
 /obj/structure/table/glass,
 /obj/item/storage/box/rxglasses,
+/obj/item/storage/pill_bottle/mutadone,
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
 "bAS" = (
@@ -35688,8 +35695,6 @@
 /obj/machinery/newscaster{
 	pixel_x = -30
 	},
-/obj/item/stack/sheet/mineral/plasma,
-/obj/item/stack/sheet/mineral/plasma,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bQF" = (
@@ -36062,7 +36067,7 @@
 /obj/machinery/light_switch{
 	pixel_x = -23
 	},
-/obj/machinery/reagentgrinder,
+/obj/item/toy/figure/virologist,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bRN" = (
@@ -36316,7 +36321,7 @@
 /turf/open/floor/plating,
 /area/engine/atmos)
 "bSD" = (
-/obj/structure/plaque/static_plaque/atmos{
+/obj/structure/sign/plaques/atmos{
 	pixel_y = -32
 	},
 /obj/structure/table,
@@ -36844,11 +36849,7 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/structure/sink{
-	dir = 4;
-	pixel_x = -12;
-	pixel_y = 2
-	},
+/obj/machinery/chem_dispenser,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bUc" = (
@@ -37138,13 +37139,18 @@
 /turf/open/floor/plating,
 /area/maintenance/aft)
 "bVa" = (
-/obj/machinery/smartfridge/chemistry/virology/preloaded,
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
+/obj/item/stack/sheet/mineral/plasma,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bVb" = (
@@ -37529,13 +37535,11 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bWg" = (
-/obj/structure/table,
-/obj/item/hand_labeler,
-/obj/item/radio/headset/headset_med,
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
+/obj/structure/table,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bWh" = (
@@ -37870,12 +37874,6 @@
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bWY" = (
-/obj/structure/table,
-/obj/item/paper_bin{
-	pixel_x = -2;
-	pixel_y = 5
-	},
-/obj/item/pen/red,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
 	},
@@ -37883,6 +37881,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
+/obj/machinery/smartfridge/chemistry/virology/preloaded,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bWZ" = (
@@ -38542,7 +38541,7 @@
 /area/medical/virology)
 "bYZ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/closed/wall/r_wall,
+/turf/closed/wall,
 /area/medical/virology)
 "bZb" = (
 /obj/machinery/light{
@@ -48720,6 +48719,12 @@
 	},
 /turf/closed/wall,
 /area/maintenance/disposal/incinerator)
+"emx" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 27
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/medbay/central)
 "emK" = (
 /obj/structure/chair{
 	dir = 8
@@ -49198,6 +49203,9 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "fVK" = (
@@ -49417,7 +49425,19 @@
 /turf/open/floor/plasteel,
 /area/vacant_room/commissary)
 "gFW" = (
-/obj/machinery/clonepod,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/blue,
+/obj/structure/table/glass,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 5;
+	pixel_y = 30
+	},
+/obj/effect/spawner/lootdrop/donkpockets,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "gGJ" = (
@@ -49453,18 +49473,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
-	},
-/obj/structure/cable,
-/obj/machinery/clonepod,
-/turf/open/floor/plasteel/white,
-/area/medical/genetics/cloning)
-"gIf" = (
-/obj/effect/turf_decal/tile/blue{
-	dir = 1
-	},
-/obj/machinery/power/apc{
-	name = "Cloning Room APC";
-	pixel_x = -32
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/white,
@@ -50120,6 +50128,15 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /turf/open/floor/plasteel,
 /area/security/prison)
+"iDm" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/clonepod,
+/obj/machinery/shower{
+	dir = 8;
+	pixel_y = -4
+	},
+/turf/open/floor/plasteel/white,
+/area/medical/genetics/cloning)
 "iDG" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
@@ -50972,13 +50989,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/machinery/camera{
-	c_tag = "Cloning Lab";
-	dir = 4;
-	network = list("ss13","medbay")
-	},
-/obj/structure/table/glass,
-/obj/item/book/manual/wiki/medical_cloning,
+/obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "kMP" = (
@@ -53433,6 +53444,15 @@
 	},
 /turf/closed/wall,
 /area/security/prison/safe)
+"qZb" = (
+/obj/effect/turf_decal/tile/blue,
+/obj/machinery/camera{
+	c_tag = "Head of Personnel's Office";
+	dir = 1
+	},
+/obj/machinery/dna_scannernew,
+/turf/open/floor/plasteel/white,
+/area/medical/genetics/cloning)
 "rcD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden{
 	dir = 4
@@ -54748,7 +54768,19 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/machinery/dna_scannernew,
+/obj/effect/turf_decal/tile/blue{
+	dir = 4
+	},
+/obj/machinery/camera{
+	c_tag = "Cloning Lab";
+	network = list("ss13","medbay")
+	},
+/obj/structure/table/glass,
+/obj/item/storage/pill_bottle/mannitol,
+/obj/item/storage/pill_bottle/mutadone,
+/obj/machinery/firealarm{
+	pixel_y = 27
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "uGz" = (
@@ -54849,8 +54881,13 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
-/obj/effect/spawner/lootdrop/donkpockets,
+/obj/machinery/power/apc{
+	name = "Cloning Room APC";
+	pixel_x = -32
+	},
+/obj/structure/cable,
 /obj/structure/table/glass,
+/obj/item/book/manual/wiki/medical_cloning,
 /turf/open/floor/plasteel/white,
 /area/medical/genetics/cloning)
 "uUy" = (
@@ -94642,7 +94679,7 @@ bfJ
 bhh
 bhh
 bwK
-bhh
+emx
 bhh
 bhh
 btV
@@ -94895,11 +94932,11 @@ boc
 bqW
 bsx
 bua
+tiO
+tiO
+tiO
 bua
-bua
-bua
-bua
-bua
+ljx
 bhh
 bhh
 btV
@@ -95153,10 +95190,10 @@ bqQ
 bhh
 tiO
 bvn
-gIf
+kMu
 kMu
 uTM
-bua
+ljx
 bBJ
 bhh
 bBn
@@ -95413,7 +95450,7 @@ fUn
 pJG
 bvo
 bzl
-bua
+ljx
 bzd
 bhh
 btT
@@ -95669,8 +95706,8 @@ bua
 uFy
 bum
 vhn
-bye
-bua
+bzm
+ljx
 bBL
 bhh
 bBC
@@ -95926,8 +95963,8 @@ bua
 apz
 bul
 vhn
-bzm
-bua
+qZb
+ljx
 bBK
 bwz
 bBw
@@ -95948,8 +95985,8 @@ bNh
 bWg
 bWY
 bYc
-bNd
-bNd
+bRN
+bRN
 bzs
 bzs
 bJs
@@ -96182,7 +96219,7 @@ brh
 bua
 gFW
 buq
-vhn
+bye
 brb
 ljx
 bBN
@@ -96437,9 +96474,9 @@ bpG
 bqZ
 bpG
 bpG
-bpG
-bun
 bvr
+bun
+vhn
 bzo
 ljx
 aFa
@@ -96462,7 +96499,7 @@ bNj
 bNs
 bXa
 bYa
-bNd
+bRN
 bZQ
 caP
 cbO
@@ -96719,7 +96756,7 @@ bWj
 bOm
 bXc
 bYe
-bNd
+bRN
 bZS
 caR
 bzs
@@ -96976,7 +97013,7 @@ bWj
 bWj
 bWj
 bWj
-bNd
+bRN
 bzs
 bzs
 bzs
@@ -97211,7 +97248,7 @@ jsb
 bpG
 oYY
 vhn
-brb
+iDm
 ljx
 bBQ
 bDa
