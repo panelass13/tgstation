@@ -82,7 +82,7 @@
 #define ANTAG_HUD_FUGITIVE	25
 #define ANTAG_HUD_GANGSTER	26
 #define ANTAG_HUD_SPACECOP	27
-
+#define ANTAG_HUD_INFILTRATOR 28 //yoinked from hippie (infiltrators)
 
 // Notification action types
 #define NOTIFY_JUMP "jump"
