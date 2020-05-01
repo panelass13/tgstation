@@ -72,6 +72,5 @@
 #include "panelastation\code\modules\telescience\telesci.dm"
 #include "panelastation\code\modules\telescience\telesci_computer.dm"
 #include "panelastation\code\modules\vending\_vending.dm"
-#include "panelastation\code\modules\vending\cola.dm"
 #include "panelastation\code\modules\vending\medical.dm"
 // END_INCLUDE
