@@ -23,7 +23,7 @@
 	exclude_modes = list(/datum/game_mode/infiltration) //you don't need to be blowing that much shit up!
 
 /datum/uplink_item/dangerous/guardian
-  player_minimum = 15
+	player_minimum = 15
 	exclude_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops, /datum/game_mode/infiltration)
 
 /datum/uplink_item/stealthy_weapons/martialarts
