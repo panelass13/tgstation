@@ -6892,6 +6892,10 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/supplypod/loading/ert)
+"pE" = (
+/obj/effect/spawner/template/infiltrator,
+/turf/open/space/basic,
+/area/space)
 "pF" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Auxillary Dock";
@@ -49538,7 +49542,7 @@ aa
 aa
 aa
 aa
-aa
+pE
 aa
 aa
 aa
