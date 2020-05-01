@@ -14,3 +14,4 @@
 	..()
 	if(M == user && reagents.total_volume > 0 && is_drainable())
 		to_chat(user, "<span class='notice'>[pick(slogans)]</span>")
+		
